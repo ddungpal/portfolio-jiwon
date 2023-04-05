@@ -37,11 +37,11 @@ export default function Topbar() {
                 <h1 className="font-bold hover:text-indigo-300">Work</h1>
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link to="/exibition">
                 <h1 className="font-bold hover:text-indigo-300">Exibition</h1>
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link to="/about">
                 <h1 className="font-bold hover:text-indigo-300">About</h1>
@@ -59,11 +59,11 @@ export default function Topbar() {
                 </h1>
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link to="/upload">
                 <h1 className="font-bold hover:text-indigo-300">Upload</h1>
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
