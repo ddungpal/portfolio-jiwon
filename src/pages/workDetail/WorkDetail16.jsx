@@ -16,7 +16,7 @@ export default function WorkDetail16() {
   let image4 = "";
   let image5 = "";
   let image5_2 = "";
-  let image6 = "";
+  // let image6 = "";
   let image7 = "";
   let image8 = "";
   let image9 = "";
@@ -69,12 +69,12 @@ export default function WorkDetail16() {
         (product) => product.id === "ac503fe5-70bd-4903-94ba-c1141bb33ff4"
       );
     image5_2 = image5_2Obj[0].image;
-    const image6Obj =
-      productsOri &&
-      productsOri.filter(
-        (product) => product.id === "403fac96-7e8c-423f-8902-f93e1ba993fe"
-      );
-    image6 = image6Obj[0].image;
+    // const image6Obj =
+    //   productsOri &&
+    //   productsOri.filter(
+    //     (product) => product.id === "403fac96-7e8c-423f-8902-f93e1ba993fe"
+    //   );
+    // image6 = image6Obj[0].image;
     const image7Obj =
       productsOri &&
       productsOri.filter(
@@ -156,6 +156,11 @@ export default function WorkDetail16() {
       {error && <p>{error}</p>}
       <img
         className="mb-5"
+        src={image5}
+        alt="5.Yellow Forest, 20x20cm, pigment on Hanji.jpg"
+      />
+      <img
+        className="mb-5"
         src={image1}
         alt="1.낀 사람,21.5x16.5cm,pigment on Hanji.jpg"
       />
@@ -176,19 +181,14 @@ export default function WorkDetail16() {
       />
       <img
         className="mb-5"
-        src={image5}
-        alt="5.Yellow Forest, 20x20cm, pigment on Hanji.jpg"
-      />
-      <img
-        className="mb-5"
         src={image5_2}
         alt="5.몇그램의 나, 23x30cm, pigment on Hanji,2018.jpg"
       />
-      <img
+      {/* <img
         className="mb-5"
         src={image6}
         alt="6.Yellow Forest, 20x20cm, pigment on Hanji.jpg"
-      />
+      /> */}
       <img
         className="mb-5"
         src={image7}

@@ -50,7 +50,6 @@ export default function WorkDetail13() {
     <>
       {isLoading && <p>Loading...</p>}
       {error && <p>{error}</p>}
-      <video className="mb-5" src={video1} controls autoPlay></video>
       <img
         className="mb-5"
         src={image1}
@@ -62,6 +61,7 @@ export default function WorkDetail13() {
         src={image3}
         alt="3 멸균의 공간, 프로잭션 맵핑, 가변설치.jpeg"
       />
+      <video className="mb-5" src={video1} controls autoPlay></video>
     </>
   );
 }

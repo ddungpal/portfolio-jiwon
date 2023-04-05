@@ -257,6 +257,7 @@ export default function About() {
         </div>
         <div className="p-5 pt-0 ">
           <p className="mb-2 underline font-semibold">Lecture</p>
+          <p>Affiliated Professor, Kookje University</p>
           <p>Kaywon Arts High school</p>
         </div>
       </div>
