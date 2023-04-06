@@ -37,7 +37,7 @@ export default function About() {
         </div>
         <div className="p-5 pt-0 ">
           <p className="mb-2 underline font-semibold">Exhibition</p>
-          <p>Solo</p>
+          <p className="italic">Solo</p>
           <div className="flex">
             <div className="w-[50px]">2023</div>
             <div>‘Dreaming escape from Orbit’, PAS gallery, Seoul (July)</div>
@@ -50,7 +50,7 @@ export default function About() {
             <div className="w-[50px]">2017</div>
             <div>Nuance; Shade of Meaning’, Art space Noon, Suwon</div>
           </div>
-          <p className="mt-3">Double</p>
+          <p className="mt-3 italic">Double</p>
           <div className="flex">
             <div className="w-[50px]">2022</div>
             <div>‘Flow’, Woosuk gallery, Seoul</div>
@@ -67,7 +67,7 @@ export default function About() {
             <div className="w-[50px]">2016</div>
             <div>‘The Perception Lab’, Woosuk gallery, Seoul</div>
           </div>
-          <p className="mt-3">Group</p>
+          <p className="mt-3 italic">Group</p>
           <div className="flex">
             <div className="w-[50px]">2023</div>
             <div>‘The Preview Seoungsu’,(Upcoming, April)</div>
@@ -259,6 +259,205 @@ export default function About() {
           <p className="mb-2 underline font-semibold">Lecture</p>
           <p>Affiliated Professor, Kookje University</p>
           <p>Kaywon Arts High school</p>
+        </div>
+      </div>
+      <div className="container mx-auto">
+        <hr className="mb-3 border-dashed border-indigo-500/75" />
+        <div className="p-5 pt-0">
+          <p className="font-semibold">AHACOLLECTIVE(b.2018)</p>
+          <p className="font-semibold">
+            CHOI, Jiwon I CHUNG, Hyeree I KIM, Saetbyul I PARK, Juaee
+          </p>
+          <hr className="mt-2" />
+          <p className="p-2 line-clamp">
+            AHACOLLECTIVE is a collective formed in 2018 that digitally converts
+            continuous perspectives such as tradition and analog to explore
+            through media-based narrative methods. It constantly explores
+            alternatives in a rapidly changing environment and studies the
+            sustainability to be built, and expresses them through repetitive
+            and symbolic mediums of movement in the work. Every year, we work in
+            collaboration with various creators such as composers, visual
+            artists, performers, and developers, expecting the impact of the
+            context of the concept to be expressed, the physical properties of
+            the tools used, and the solidarity of the human and temporal
+            environment surrounding us.
+          </p>
+          <hr />
+        </div>
+        <div className="p-5 pt-0">
+          <p className="mb-2 underline font-semibold">CV</p>
+          <p>Webpage: www.ahacollective.kr </p>
+          <p>Instagram: @ahacollective.kr</p>
+          <p>Email: ahacollective.info@gmail.com </p>
+        </div>
+        <div className="p-5 pt-0 ">
+          <p className="mb-2 underline font-semibold">Exhibition</p>
+          <p className="italic">Solo</p>
+          <div className="flex">
+            <div className="w-[50px]">2023</div>
+            <div>
+              《Mirroring Effect》, PAS gallery, Seoul, Korea (3-17 Mar.)
+            </div>
+          </div>
+          <div className="flex">
+            <div className="w-[50px]">2022</div>
+            <div>《Piece of light》, Art for lab, Gyeonggi, Korea</div>
+          </div>
+          <div className="flex">
+            <div className="w-[50px]"></div>
+            <div>
+              《0-Phasing-1》, Platform-L Contemporary Art Center, Seoul, Korea
+            </div>
+          </div>
+          <div className="flex">
+            <div className="w-[50px]">2021</div>
+            <div>《Ilwolobong_stream》, Gallery Insa art, Seoul, Korea </div>
+          </div>
+          <div className="flex">
+            <div className="w-[50px]">2019</div>
+            <div>
+              《無窮花三千里華麗江山(Mugungwha Samchunri Hwareogangsan)》,
+              Seoripul gallery, Seoul, Korea
+            </div>
+          </div>
+          <div className="flex">
+            <div className="w-[50px]">2018</div>
+            <div>《QuestionaryK-》, Artspace I-seak, Seoul, Korea</div>
+          </div>
+          <p className="mt-3 italic">Group</p>
+          <div className="flex">
+            <div className="w-[50px]">2023</div>
+            <div>
+              《MIRO META ART:Mirror Moment》, Miro center,Gwangju, Korea
+            </div>
+          </div>
+          <div className="flex">
+            <div className="w-[50px]"></div>
+            <div>《POV》, Pyo gallery, Seoul, Korea</div>
+          </div>
+          <div className="flex">
+            <div className="w-[50px]">2022</div>
+            <div>《Welcome Generation》, Seoul Art Center, Seoul, Korea</div>
+          </div>
+          <div className="flex">
+            <div className="w-[50px]"></div>
+            <div>《Nature》, Posco The Sharp gallery, Seoul, Korea</div>
+          </div>
+          <div className="flex">
+            <div className="w-[50px]">2021</div>
+            <div>《Hi, a new home》, Suchang Youth mansion, Daegu, Korea</div>
+          </div>
+          <div className="flex">
+            <div className="w-[50px]">2020</div>
+            <div>《WESS Portfolio Archive》, WESS, Seoul , Korea</div>
+          </div>
+          <div className="flex">
+            <div className="w-[50px]">2019</div>
+            <div>《When Jaegang dancing》, Junganjijeom, Seoul, Korea</div>
+          </div>
+        </div>
+        <div className="p-5 pt-0 ">
+          <p className="mb-2 underline font-semibold">
+            Project / Public media art
+          </p>
+          <div className="flex">
+            <div className="w-[50px]">2023</div>
+            <div>《The Hyundai Seoul》</div>
+          </div>
+          <div className="flex">
+            <div className="w-[50px]">2022</div>
+            <div>《Suwon Media art show》,《Suncheonman Media Festival》</div>
+          </div>
+          <div className="flex">
+            <div className="w-[50px]">2021</div>
+            <div>
+              《Namisum Media Festival》, 《Ganjeolgok Media Festival》, 《Muan
+              Airport(Media Facade)》, 《Jeju Media Festival》, 《Cafe
+              botbotbot(Interactive Media wall project)》
+            </div>
+          </div>
+        </div>
+        <div className="p-5 pt-0 ">
+          <p className="mb-2 underline font-semibold">Award</p>
+          <div className="flex">
+            <div className="w-[50px]">2023</div>
+            <div>6th Digital Art Portfolio Award, SAFxPyo gallery</div>
+          </div>
+          <div className="flex">
+            <div className="w-[50px]">2022</div>
+            <div>
+              1st prize, Platform-L Live Arts Program, Platform-L Contemporary
+              Art Center, Seoul, Korea
+            </div>
+          </div>
+        </div>
+        <div className="p-5 pt-0 ">
+          <p className="mb-2 underline font-semibold">Selected Program</p>
+          <div className="flex">
+            <div className="w-[50px]">2020</div>
+            <div>
+              ‘Davinci Project: Media art X Science & Technology(AHAcollective),
+              KOCCA, Seoul, Korea
+            </div>
+          </div>
+          <div className="flex">
+            <div className="w-[50px]">2019</div>
+            <div>
+              ‘Davinci Project: Media art X Science & Technology(AHAcollective),
+              KOCCA, Seoul, Korea
+            </div>
+          </div>
+        </div>
+        <div className="p-5 pt-0 ">
+          <p className="mb-2 underline font-semibold">Collaborations</p>
+          <div className="flex">
+            <div className="w-[50px]">2023</div>
+            <div>
+              ‘Munmyo’, AHAcollectiveXMunmyo traditional music producer, Seoul,
+              Korea (upcoming, Mar.)
+            </div>
+          </div>
+          <div className="flex">
+            <div className="w-[50px]">2022</div>
+            <div>
+              ‘0-Phasing-1’, AHAcollectiveXOurperccusion, Platform-L Live Arts
+              program, Seoul, Korea
+            </div>
+          </div>
+          <div className="flex">
+            <div className="w-[50px]">2021</div>
+            <div>
+              ‘Project: Shape of Taste’, AHAcollective X Harta X Legout, Seoul,
+              Korea
+            </div>
+          </div>
+          <div className="flex">
+            <div className="w-[50px]">2021</div>
+            <div>
+              ‘Project: Museum Silla’, AHAcollective X NIVL studio, Seoul, Korea
+            </div>
+          </div>
+          <div className="flex">
+            <div className="w-[50px]">2021</div>
+            <div>
+              ‘Project: With Art’, AHAcollective X 0gallery, Seoul, Korea
+            </div>
+          </div>
+          <div className="flex">
+            <div className="w-[50px]">2019</div>
+            <div>
+              Sound Collaboration with Yoon Jiwon(Composer), ‘Hwareogangsan’,
+              ‘Ilwolobong’, Seoul, Korea
+            </div>
+          </div>
+        </div>
+        <div className="p-5 pt-0 ">
+          <p className="mb-2 underline font-semibold">Design Patent</p>
+          <p>Switching (for lighting fixture)</p>
+        </div>
+        <div className="p-5 pt-0 ">
+          <p className="mb-2 underline font-semibold">Education</p>
+          <p>(MA,BA) Oriental painting, Seoul National University, Korea</p>
         </div>
       </div>
     </>
