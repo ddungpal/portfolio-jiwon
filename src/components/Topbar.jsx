@@ -2,7 +2,7 @@ import { React, useState } from "react";
 import { Link } from "react-router-dom";
 import { BsInstagram } from "react-icons/bs";
 // import { AiOutlineMenu } from "react-icons/ai";
-import menuBtn from "../imgs/home/favicon.png";
+import menuBtn from "../imgs/home/topbarMenu.png";
 
 export default function Topbar() {
   // const [navbar, setNavbar] = useState(false);
@@ -22,7 +22,7 @@ export default function Topbar() {
             type="button"
             onClick={() => setNavbarOpen(!navbarOpen)}
           >
-            <img src={menuBtn} alt="metamask" className="h-8 w-16" />
+            <img src={menuBtn} alt="metamask" className="h-8 w-12" />
           </button>
         </div>
         <div
