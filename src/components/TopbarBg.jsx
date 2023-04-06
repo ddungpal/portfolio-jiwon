@@ -22,7 +22,7 @@ export default function Topbar() {
             type="button"
             onClick={() => setNavbarOpen(!navbarOpen)}
           >
-            <img src={menuBtn} alt="metamask" className="h-8 w-12" />
+            <img src={menuBtn} alt="metamask" className="h-8 w-16" />
           </button>
         </div>
         <div

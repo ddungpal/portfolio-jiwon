@@ -36,7 +36,7 @@ export default function Work() {
               }
               onClick={() => setSidebarOpen(!sidebarOpen)}
             >
-              <img src={workBtn} alt="metamask" className="h-8 w-16" />
+              <img src={workBtn} alt="metamask" className="h-10 w-12" />
             </button>
             <div>
               <WorkDetail selectedContent={currentContent.number} />
