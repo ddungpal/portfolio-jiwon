@@ -13,17 +13,17 @@ export default function WorkDetail12() {
   let image1 = "";
   let image2 = "";
   let image3 = "";
-  let video1 = "";
+  // let video1 = "";
 
   if (products12) {
     const _ = require("lodash");
     const productsOri = _.cloneDeep(products12);
-    const video1Obj =
-      productsOri &&
-      productsOri.filter(
-        (product) => product.id === "105ea9f4-7063-4f5e-97a1-a55b5346bf00"
-      );
-    video1 = video1Obj[0].image;
+    // const video1Obj =
+    //   productsOri &&
+    //   productsOri.filter(
+    //     (product) => product.id === "105ea9f4-7063-4f5e-97a1-a55b5346bf00"
+    //   );
+    // video1 = video1Obj[0].image;
     const image1Obj =
       productsOri &&
       productsOri.filter(
@@ -50,7 +50,7 @@ export default function WorkDetail12() {
     <>
       {isLoading && <p>Loading...</p>}
       {error && <p>{error}</p>}
-      <video className="mb-5" src={video1} controls autoPlay></video>
+      {/* <video className="mb-5" src={video1} controls autoPlay></video> */}
       <img className="mb-5" src={image1} alt="일월오봉.jpeg" />
       <img className="mb-5" src={image2} alt="일월오봉1.jpeg" />
       <img className="mb-5" src={image3} alt="일월오봉2.jpeg" />

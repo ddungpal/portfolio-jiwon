@@ -11,7 +11,7 @@ export default function WorkDetail7() {
 
   let image1 = "";
   let image2 = "";
-  let image3 = "";
+  // let image3 = "";
   let image4 = "";
   let image5 = "";
   // let video1 = "";
@@ -32,12 +32,12 @@ export default function WorkDetail7() {
         (product) => product.id === "9780d670-6d53-4bf8-82f2-9f6794f4b7b7"
       );
     image2 = image2Obj[0].image;
-    const image3Obj =
-      productsOri &&
-      productsOri.filter(
-        (product) => product.id === "782fffaa-0af3-4cda-8838-8649d93c2261"
-      );
-    image3 = image3Obj[0].image;
+    // const image3Obj =
+    //   productsOri &&
+    //   productsOri.filter(
+    //     (product) => product.id === "782fffaa-0af3-4cda-8838-8649d93c2261"
+    //   );
+    // image3 = image3Obj[0].image;
     const image4Obj =
       productsOri &&
       productsOri.filter(
@@ -75,11 +75,11 @@ export default function WorkDetail7() {
         src={image2}
         alt="3. ‘0과 1의 Pulse’, installation, 2022"
       />
-      <img
+      {/* <img
         className="mb-5"
         src={image3}
         alt="4. ‘0과 1의 Pulse’, installation, 2022"
-      />
+      /> */}
       <img
         className="mb-5"
         src={image4}

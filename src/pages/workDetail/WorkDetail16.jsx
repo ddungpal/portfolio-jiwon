@@ -10,7 +10,7 @@ export default function WorkDetail16() {
   } = useQuery(["products16"], getProducts16);
 
   console.log(products16);
-  let image1 = "";
+  // let image1 = "";
   let image2 = "";
   let image3 = "";
   let image4 = "";
@@ -33,12 +33,12 @@ export default function WorkDetail16() {
   if (products16) {
     const _ = require("lodash");
     const productsOri = _.cloneDeep(products16);
-    const image1Obj =
-      productsOri &&
-      productsOri.filter(
-        (product) => product.id === "1eb4c534-de9a-4c79-84ba-580021c247aa"
-      );
-    image1 = image1Obj[0].image;
+    // const image1Obj =
+    //   productsOri &&
+    //   productsOri.filter(
+    //     (product) => product.id === "1eb4c534-de9a-4c79-84ba-580021c247aa"
+    //   );
+    // image1 = image1Obj[0].image;
     const image2Obj =
       productsOri &&
       productsOri.filter(
@@ -159,11 +159,11 @@ export default function WorkDetail16() {
         src={image5}
         alt="5.Yellow Forest, 20x20cm, pigment on Hanji.jpg"
       />
-      <img
+      {/* <img
         className="mb-5"
         src={image1}
         alt="1.낀 사람,21.5x16.5cm,pigment on Hanji.jpg"
-      />
+      /> */}
       <img
         className="mb-5"
         src={image2}

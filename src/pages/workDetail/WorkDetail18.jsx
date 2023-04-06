@@ -18,7 +18,7 @@ export default function WorkDetail18() {
   let image5 = "";
   let image5_2 = "";
   let image6 = "";
-  let image7 = "";
+  // let image7 = "";
   let image8 = "";
   let image8_2 = "";
   let image9 = "";
@@ -74,12 +74,12 @@ export default function WorkDetail18() {
         (product) => product.id === "1270d7f8-30d1-4cdd-91ca-0c0f3c17904f"
       );
     image6 = image6Obj[0].image;
-    const image7Obj =
-      productsOri &&
-      productsOri.filter(
-        (product) => product.id === "741231d0-d36f-4074-9d40-6db4ca505384"
-      );
-    image7 = image7Obj[0].image;
+    // const image7Obj =
+    //   productsOri &&
+    //   productsOri.filter(
+    //     (product) => product.id === "741231d0-d36f-4074-9d40-6db4ca505384"
+    //   );
+    // image7 = image7Obj[0].image;
     const image8Obj =
       productsOri &&
       productsOri.filter(
@@ -137,11 +137,11 @@ export default function WorkDetail18() {
         src={image6}
         alt="6.상象, 120x240cm, pigment on Hanji 2015.jpg"
       />
-      <img
+      {/* <img
         className="mb-5"
         src={image7}
         alt="7. Perception Lab, Exhibition View(2016).jpg"
-      />
+      /> */}
       <img
         className="mb-5"
         src={image8}
