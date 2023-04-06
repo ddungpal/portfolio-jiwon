@@ -154,11 +154,6 @@ export default function WorkDetail16() {
     <>
       {isLoading && <p>Loading...</p>}
       {error && <p>{error}</p>}
-      <img
-        className="mb-5"
-        src={image5}
-        alt="5.Yellow Forest, 20x20cm, pigment on Hanji.jpg"
-      />
       {/* <img
         className="mb-5"
         src={image1}
@@ -238,6 +233,11 @@ export default function WorkDetail16() {
         className="mb-5"
         src={image16}
         alt="16. night,38.5x46cm.pigment on Hanji,2016.jpg"
+      />
+      <img
+        className="mb-5"
+        src={image5}
+        alt="5.Yellow Forest, 20x20cm, pigment on Hanji.jpg"
       />
       <img className="mb-5" src={image17} alt="17.Exhibition View.jpg" />
       <img className="mb-5" src={image18} alt="18.Exhibition View.jpg" />

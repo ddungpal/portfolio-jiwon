@@ -13,18 +13,18 @@ export default function WorkDetail10() {
   let image1 = "";
   let image2 = "";
   let image3 = "";
-  let image4 = "";
+  // let image4 = "";
   let image5 = "";
   let image6 = "";
   let image7 = "";
   let image8 = "";
-  let image8_2 = "";
+  // let image8_2 = "";
   let image9 = "";
   // let image9_2 = "";
   let image10 = "";
   // let image10_2 = "";
   // let image11 = "";
-  let image12 = "";
+  // let image12 = "";
   // let image13 = "";
   // let image14 = "";
 
@@ -49,12 +49,12 @@ export default function WorkDetail10() {
         (product) => product.id === "46bad30d-5302-47f1-9b17-c48cf49a6a7d"
       );
     image3 = image3Obj[0].image;
-    const image4Obj =
-      productsOri &&
-      productsOri.filter(
-        (product) => product.id === "0b98b56c-19e4-45e4-8a9b-391e10f336ca"
-      );
-    image4 = image4Obj[0].image;
+    // const image4Obj =
+    //   productsOri &&
+    //   productsOri.filter(
+    //     (product) => product.id === "0b98b56c-19e4-45e4-8a9b-391e10f336ca"
+    //   );
+    // image4 = image4Obj[0].image;
     const image5Obj =
       productsOri &&
       productsOri.filter(
@@ -79,12 +79,12 @@ export default function WorkDetail10() {
         (product) => product.id === "7187e082-0d26-4309-a033-3730dfdf2ccf"
       );
     image8 = image8Obj[0].image;
-    const image8_2Obj =
-      productsOri &&
-      productsOri.filter(
-        (product) => product.id === "7d1cec40-d06a-4d55-a829-e1082b288547"
-      );
-    image8_2 = image8_2Obj[0].image;
+    // const image8_2Obj =
+    //   productsOri &&
+    //   productsOri.filter(
+    //     (product) => product.id === "7d1cec40-d06a-4d55-a829-e1082b288547"
+    //   );
+    // image8_2 = image8_2Obj[0].image;
     const image9Obj =
       productsOri &&
       productsOri.filter(
@@ -115,12 +115,12 @@ export default function WorkDetail10() {
     //     (product) => product.id === "7ea90410-22f4-4bf0-92c4-5aedf8cde0eb"
     //   );
     // image11 = image11Obj[0].image;
-    const image12Obj =
-      productsOri &&
-      productsOri.filter(
-        (product) => product.id === "546ee21a-dd4e-4cb2-b759-45a9d3cab443"
-      );
-    image12 = image12Obj[0].image;
+    // const image12Obj =
+    //   productsOri &&
+    //   productsOri.filter(
+    //     (product) => product.id === "546ee21a-dd4e-4cb2-b759-45a9d3cab443"
+    //   );
+    // image12 = image12Obj[0].image;
     // const image13Obj =
     //   productsOri &&
     //   productsOri.filter(
@@ -155,11 +155,11 @@ export default function WorkDetail10() {
         src={image3}
         alt="3.작은 무지개가 핀_가변크기_2019..JPG"
       />
-      <img
+      {/* <img
         className="mb-5"
         src={image4}
         alt="4.작은 무지개가 핀_가변크기_2019..JPG"
-      />
+      /> */}
       <img
         className="mb-5"
         src={image5}
@@ -180,11 +180,11 @@ export default function WorkDetail10() {
         src={image8}
         alt="8.작은 무지개가 핀_가변크기_2019..JPG"
       />
-      <img
+      {/* <img
         className="mb-5"
         src={image8_2}
         alt="8.풀이 흔들리는_가변크기_2019.JPG"
-      />
+      /> */}
       <img
         className="mb-5"
         src={image9}
@@ -210,11 +210,11 @@ export default function WorkDetail10() {
         src={image11}
         alt="11.풀이 흔들리는_가변크기_2019.JPG.jpg"
       /> */}
-      <img
+      {/* <img
         className="mb-5"
         src={image12}
         alt="12.풀이 흔들리는_가변크기_2019.JPG.JPG"
-      />
+      /> */}
       {/* <img
         className="mb-5"
         src={image13}
