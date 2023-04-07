@@ -265,8 +265,8 @@ export default function About() {
           <p>Kaywon Arts High school</p>
         </div>
       </div>
-      <div className="container mx-auto">
-        <hr className="mb-3 border-dashed border-indigo-500/75 lg:w-3/4" />
+      <div className="container mx-auto mt-5">
+        {/* <hr className="mb-3 border-dashed border-indigo-500/75 lg:w-3/4" /> */}
         <div className="lg:w-1/4"></div>
         <div className="lg:w-3/4">
           <div className="p-5 pt-0">
@@ -375,7 +375,7 @@ export default function About() {
             <div className="w-[50px]">2021</div>
             <div>
               《Namisum Media Festival》, 《Ganjeolgok Media Festival》, 《Muan
-              Airport(Media Facade)》, 《Jeju Media Festival》, 《Cafe
+              Airport(Media Facade)》, <br />《Jeju Media Festival》, 《Cafe
               botbotbot(Interactive Media wall project)》
             </div>
           </div>
