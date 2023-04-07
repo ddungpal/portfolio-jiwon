@@ -32,15 +32,19 @@ export default function About() {
       <div className="container mx-auto">
         <div className="p-5 pt-0">
           <p className="mb-2 underline font-semibold">CV</p>
-          <p>www.choijiwon.kr</p>
-          <p>contact@choijiwon.kr</p>
+          <p>Webpage: www.choijiwon.kr</p>
+          <p>Instagram: @ji1__choi</p>
+          <p>Email: contact@choijiwon.kr</p>
         </div>
         <div className="p-5 pt-0 ">
           <p className="mb-2 underline font-semibold">Exhibition</p>
           <p className="italic">Solo</p>
           <div className="flex">
             <div className="w-[50px]">2023</div>
-            <div>‘Dreaming escape from Orbit’, PAS gallery, Seoul (July)</div>
+            <div>
+              ‘The way to leave orbit’, Pluripotent art space, Seoul (Upcoming,
+              July)
+            </div>
           </div>
           <div className="flex">
             <div className="w-[50px]">2018</div>
@@ -70,7 +74,7 @@ export default function About() {
           <p className="mt-3 italic">Group</p>
           <div className="flex">
             <div className="w-[50px]">2023</div>
-            <div>‘The Preview Seoungsu’,(Upcoming, April)</div>
+            <div>‘The Preview Seongsu’,S factory, Seoul (Upcoming, April)</div>
           </div>
           <div className="flex">
             <div className="w-[50px]"></div>
@@ -295,65 +299,61 @@ export default function About() {
           <p className="italic">Solo</p>
           <div className="flex">
             <div className="w-[50px]">2023</div>
-            <div>
-              《Mirroring Effect》, PAS gallery, Seoul, Korea (3-17 Mar.)
-            </div>
+            <div>‘Mirroring Effect’, PAS gallery, Seoul, Korea (3-17 Mar.)</div>
           </div>
           <div className="flex">
             <div className="w-[50px]">2022</div>
-            <div>《Piece of light》, Art for lab, Gyeonggi, Korea</div>
+            <div>‘Piece of light’, Art for lab, Gyeonggi, Korea</div>
           </div>
           <div className="flex">
             <div className="w-[50px]"></div>
             <div>
-              《0-Phasing-1》, Platform-L Contemporary Art Center, Seoul, Korea
+              ‘0-Phasing-1’, Platform-L Contemporary Art Center, Seoul, Korea
             </div>
           </div>
           <div className="flex">
             <div className="w-[50px]">2021</div>
-            <div>《Ilwolobong_stream》, Gallery Insa art, Seoul, Korea </div>
+            <div>‘Ilwolobong_stream’, Gallery Insa art, Seoul, Korea</div>
           </div>
           <div className="flex">
             <div className="w-[50px]">2019</div>
             <div>
-              《無窮花三千里華麗江山(Mugungwha Samchunri Hwareogangsan)》,
+              ‘無窮花三千里華麗江山(Mugungwha Samchunri Hwareogangsan)’,
               Seoripul gallery, Seoul, Korea
             </div>
           </div>
           <div className="flex">
             <div className="w-[50px]">2018</div>
-            <div>《QuestionaryK-》, Artspace I-seak, Seoul, Korea</div>
+            <div>‘QuestionaryK-’, Artspace I-seak, Seoul, Korea</div>
           </div>
           <p className="mt-3 italic">Group</p>
           <div className="flex">
             <div className="w-[50px]">2023</div>
-            <div>
-              《MIRO META ART:Mirror Moment》, Miro center,Gwangju, Korea
-            </div>
+            <div>‘MIRO META ART:Mirror Moment’, Miro center,Gwangju, Korea</div>
           </div>
           <div className="flex">
             <div className="w-[50px]"></div>
-            <div>《POV》, Pyo gallery, Seoul, Korea</div>
+            <div>‘POV’, Pyo gallery, Seoul, Korea</div>
           </div>
           <div className="flex">
             <div className="w-[50px]">2022</div>
-            <div>《Welcome Generation》, Seoul Art Center, Seoul, Korea</div>
+            <div>‘Welcome Generation’, Seoul Art Center, Seoul, Korea</div>
           </div>
           <div className="flex">
             <div className="w-[50px]"></div>
-            <div>《Nature》, Posco The Sharp gallery, Seoul, Korea</div>
+            <div>‘Nature’, Posco The Sharp gallery, Seoul, Korea</div>
           </div>
           <div className="flex">
             <div className="w-[50px]">2021</div>
-            <div>《Hi, a new home》, Suchang Youth mansion, Daegu, Korea</div>
+            <div>‘Hi, a new home’, Suchang Youth mansion, Daegu, Korea</div>
           </div>
           <div className="flex">
             <div className="w-[50px]">2020</div>
-            <div>《WESS Portfolio Archive》, WESS, Seoul , Korea</div>
+            <div>‘WESS Portfolio Archive’, WESS, Seoul , Korea</div>
           </div>
           <div className="flex">
             <div className="w-[50px]">2019</div>
-            <div>《When Jaegang dancing》, Junganjijeom, Seoul, Korea</div>
+            <div>‘When Jaegang dancing’, Junganjijeom, Seoul, Korea</div>
           </div>
         </div>
         <div className="p-5 pt-0 ">
@@ -414,7 +414,7 @@ export default function About() {
             <div className="w-[50px]">2023</div>
             <div>
               ‘Munmyo’, AHAcollectiveXMunmyo traditional music producer, Seoul,
-              Korea (upcoming, Mar.)
+              Korea
             </div>
           </div>
           <div className="flex">
@@ -455,10 +455,10 @@ export default function About() {
           <p className="mb-2 underline font-semibold">Design Patent</p>
           <p>Switching (for lighting fixture)</p>
         </div>
-        <div className="p-5 pt-0 ">
+        {/* <div className="p-5 pt-0 ">
           <p className="mb-2 underline font-semibold">Education</p>
           <p>(MA,BA) Oriental painting, Seoul National University, Korea</p>
-        </div>
+        </div> */}
       </div>
     </>
   );
