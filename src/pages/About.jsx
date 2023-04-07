@@ -13,7 +13,7 @@ export default function About() {
         </div>
         <div className="lg:w-3/4">
           <hr className="mt-5" />
-          <p className="p-5 line-clamp">
+          <p className="p-5 line-clamp text-justify">
             Jiwon Choi created a piece about moment impressions as a visual
             artist based in Seoul. Mainly searching for space between senses
             which is difficult to define through painting. As a member of
@@ -275,7 +275,7 @@ export default function About() {
               CHOI, Jiwon I CHUNG, Hyeree I KIM, Saetbyul I PARK, Juaee
             </p>
             <hr className="mt-2" />
-            <p className="p-2 line-clamp">
+            <p className="p-2 line-clamp text-justify">
               AHACOLLECTIVE is a collective formed in 2018 that digitally
               converts continuous perspectives such as tradition and analog to
               explore through media-based narrative methods. It constantly
