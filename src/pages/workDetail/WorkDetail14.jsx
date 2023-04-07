@@ -78,6 +78,18 @@ export default function WorkDetail14() {
     <>
       {isLoading && <p>Loading...</p>}
       {error && <p>{error}</p>}
+      <div className="video-container mb-5">
+        <iframe
+          id="ytplayer"
+          type="text/html"
+          src="https://www.youtube.com/embed/JFwM3MzVenw?rel=0"
+          frameborder="0"
+          allowfullScreen="allowfullscreen"
+          title="YouTube video player"
+          width="640"
+          height="390"
+        ></iframe>
+      </div>
       <img className="mb-5" src={image1} alt="1.png" />
       <img className="mb-5" src={image2} alt="2.jpeg" />
       <img className="mb-5" src={image3} alt="3.jpeg" />

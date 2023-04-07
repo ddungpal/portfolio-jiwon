@@ -13,17 +13,17 @@ export default function WorkDetail13() {
   let image1 = "";
   let image2 = "";
   let image3 = "";
-  let video1 = "";
+  // let video1 = "";
 
   if (products13) {
     const _ = require("lodash");
     const productsOri = _.cloneDeep(products13);
-    const video1Obj =
-      productsOri &&
-      productsOri.filter(
-        (product) => product.id === "a3da94b8-a531-4f3d-9eb3-b6e9517d6cdd"
-      );
-    video1 = video1Obj[0].image;
+    // const video1Obj =
+    //   productsOri &&
+    //   productsOri.filter(
+    //     (product) => product.id === "a3da94b8-a531-4f3d-9eb3-b6e9517d6cdd"
+    //   );
+    // video1 = video1Obj[0].image;
     const image1Obj =
       productsOri &&
       productsOri.filter(
@@ -50,6 +50,18 @@ export default function WorkDetail13() {
     <>
       {isLoading && <p>Loading...</p>}
       {error && <p>{error}</p>}
+      <div className="video-container mb-5">
+        <iframe
+          id="ytplayer"
+          type="text/html"
+          src="https://www.youtube.com/embed/yoWppIOFMhA?rel=0"
+          frameborder="0"
+          allowfullScreen="allowfullscreen"
+          title="YouTube video player"
+          width="640"
+          height="390"
+        ></iframe>
+      </div>
       <img
         className="mb-5"
         src={image1}
@@ -61,7 +73,7 @@ export default function WorkDetail13() {
         src={image3}
         alt="3 멸균의 공간, 프로잭션 맵핑, 가변설치.jpeg"
       />
-      <video className="mb-5" src={video1} controls autoPlay></video>
+      {/* <video className="mb-5" src={video1} controls></video> */}
     </>
   );
 }
