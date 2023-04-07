@@ -9,7 +9,7 @@ export default function WorkDetail5() {
     data: products5,
   } = useQuery(["products5"], getProducts5);
 
-  let image1 = "";
+  // let image1 = "";
   let image2 = "";
   let video1 = "";
   // let video2 = "";
@@ -18,12 +18,12 @@ export default function WorkDetail5() {
   if (products5) {
     const _ = require("lodash");
     const productsOri = _.cloneDeep(products5);
-    const image1Obj =
-      productsOri &&
-      productsOri.filter(
-        (product) => product.id === "983ef1d0-f471-4f64-b2df-f9ff4929af4b"
-      );
-    image1 = image1Obj[0].image;
+    // const image1Obj =
+    //   productsOri &&
+    //   productsOri.filter(
+    //     (product) => product.id === "983ef1d0-f471-4f64-b2df-f9ff4929af4b"
+    //   );
+    // image1 = image1Obj[0].image;
     const image2Obj =
       productsOri &&
       productsOri.filter(
@@ -51,11 +51,23 @@ export default function WorkDetail5() {
       {isLoading && <p>Loading...</p>}
       {error && <p>{error}</p>}
       <video className="mb-5" src={video1} controls autoPlay></video>
-      <img
+      <div className="video-container mb-5">
+        <iframe
+          id="ytplayer"
+          type="text/html"
+          src="https://www.youtube.com/embed/dPu0z44fFGQ?rel=0"
+          frameborder="0"
+          allowfullScreen="allowfullscreen"
+          title="YouTube video player"
+          width="640"
+          height="390"
+        ></iframe>
+      </div>
+      {/* <img
         className="mb-5"
         src={image1}
         alt="1.Dialing,sound_interaction,_installation,AR.jpg"
-      />
+      /> */}
       <img className="mb-5" src={image2} alt="2.Dialing,_Exhibiton_view.jpg" />
       {/* <video className="mb-5" src={video2} controls></video> */}
     </>

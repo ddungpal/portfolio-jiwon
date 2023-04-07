@@ -266,27 +266,30 @@ export default function About() {
         </div>
       </div>
       <div className="container mx-auto">
-        <hr className="mb-3 border-dashed border-indigo-500/75" />
-        <div className="p-5 pt-0">
-          <p className="font-semibold">AHACOLLECTIVE(b.2018)</p>
-          <p className="font-semibold">
-            CHOI, Jiwon I CHUNG, Hyeree I KIM, Saetbyul I PARK, Juaee
-          </p>
-          <hr className="mt-2" />
-          <p className="p-2 line-clamp">
-            AHACOLLECTIVE is a collective formed in 2018 that digitally converts
-            continuous perspectives such as tradition and analog to explore
-            through media-based narrative methods. It constantly explores
-            alternatives in a rapidly changing environment and studies the
-            sustainability to be built, and expresses them through repetitive
-            and symbolic mediums of movement in the work. Every year, we work in
-            collaboration with various creators such as composers, visual
-            artists, performers, and developers, expecting the impact of the
-            context of the concept to be expressed, the physical properties of
-            the tools used, and the solidarity of the human and temporal
-            environment surrounding us.
-          </p>
-          <hr />
+        <hr className="mb-3 border-dashed border-indigo-500/75 lg:w-3/4" />
+        <div className="lg:w-1/4"></div>
+        <div className="lg:w-3/4">
+          <div className="p-5 pt-0">
+            <p className="font-semibold">AHACOLLECTIVE(b.2018)</p>
+            <p className="font-semibold">
+              CHOI, Jiwon I CHUNG, Hyeree I KIM, Saetbyul I PARK, Juaee
+            </p>
+            <hr className="mt-2" />
+            <p className="p-2 line-clamp">
+              AHACOLLECTIVE is a collective formed in 2018 that digitally
+              converts continuous perspectives such as tradition and analog to
+              explore through media-based narrative methods. It constantly
+              explores alternatives in a rapidly changing environment and
+              studies the sustainability to be built, and expresses them through
+              repetitive and symbolic mediums of movement in the work. Every
+              year, we work in collaboration with various creators such as
+              composers, visual artists, performers, and developers, expecting
+              the impact of the context of the concept to be expressed, the
+              physical properties of the tools used, and the solidarity of the
+              human and temporal environment surrounding us.
+            </p>
+            <hr />
+          </div>
         </div>
         <div className="p-5 pt-0">
           <p className="mb-2 underline font-semibold">CV</p>

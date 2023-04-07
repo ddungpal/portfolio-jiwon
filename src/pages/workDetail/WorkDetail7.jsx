@@ -64,6 +64,30 @@ export default function WorkDetail7() {
     <>
       {isLoading && <p>Loading...</p>}
       {error && <p>{error}</p>}
+      <div className="video-container mb-5">
+        <iframe
+          id="ytplayer"
+          type="text/html"
+          src="https://www.youtube.com/embed/y-BdxBqaTlo?rel=0"
+          frameborder="0"
+          allowfullScreen="allowfullscreen"
+          title="YouTube video player"
+          width="640"
+          height="390"
+        ></iframe>
+      </div>
+      <div className="video-container mb-5">
+        <iframe
+          id="ytplayer"
+          type="text/html"
+          src="https://www.youtube.com/embed/9Q3qdXMEZ88?rel=0"
+          frameborder="0"
+          allowfullScreen="allowfullscreen"
+          title="YouTube video player"
+          width="640"
+          height="390"
+        ></iframe>
+      </div>
       {/* <video className="mb-5" src={video1} controls autoPlay></video> */}
       <img
         className="mb-5"

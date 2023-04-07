@@ -38,6 +38,7 @@ export default function Work() {
             >
               <img src={workBtn} alt="metamask" className="h-10 w-12" />
             </button>
+            <br /><br /><br />
             <div>
               <WorkDetail selectedContent={currentContent.number} />
             </div>
