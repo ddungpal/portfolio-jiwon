@@ -18,7 +18,7 @@ export default function Contact() {
       .then(
         (result) => {
           console.log(result.text);
-          alert("메일을 전송했습니다.");
+          alert("메일 전송에 성공했습니다.");
           form.current.reset();
         },
         (error) => {
