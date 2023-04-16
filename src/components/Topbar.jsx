@@ -38,6 +38,11 @@ export default function Topbar() {
                 <h1 className="font-bold hover:text-indigo-300">Work</h1>
               </Link>
             </li>
+            <li className="nav-item">
+              <Link to="/statement">
+                <h1 className="font-bold hover:text-indigo-300">Statement</h1>
+              </Link>
+            </li>
             {/* <li className="nav-item">
               <Link to="/exibition">
                 <h1 className="font-bold hover:text-indigo-300">Exibition</h1>

@@ -35,9 +35,12 @@ export default function Topbar() {
           <ul className="flex flex-col lg:flex-row list-none lg:ml-auto lg:space-x-4 text-xl lg:text-2xl">
             <li className="nav-item">
               <Link to="/work/2">
-                <h1 className="font-bold hover:text-indigo-300">
-                  Work
-                </h1>
+                <h1 className="font-bold hover:text-indigo-300">Work</h1>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/statement">
+                <h1 className="font-bold hover:text-indigo-300">Statement</h1>
               </Link>
             </li>
             {/* <li className="nav-item">
@@ -49,16 +52,12 @@ export default function Topbar() {
             </li> */}
             <li className="nav-item">
               <Link to="/about">
-                <h1 className="font-bold hover:text-indigo-300">
-                  About
-                </h1>
+                <h1 className="font-bold hover:text-indigo-300">About</h1>
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/contact">
-                <h1 className="font-bold hover:text-indigo-300">
-                  Contact
-                </h1>
+                <h1 className="font-bold hover:text-indigo-300">Contact</h1>
               </Link>
             </li>
             <li className="nav-item">
