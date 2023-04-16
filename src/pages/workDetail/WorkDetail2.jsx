@@ -100,8 +100,8 @@ export default function WorkDetail2() {
       <img className="mb-5" src={image17} alt="17.jpg" />
       <img className="mb-5" src={image18} alt="18.jpg" />
       <img className="mb-5" src={image19} alt="19.jpg" />
-      <img className="mb-5" src={image20} alt="20.jpg" />
-      <p className="mb-5">Photography 허유</p>
+      <img className="mb-0" src={image20} alt="20.jpg" />
+      <p className="mb-5 italic text-slate-400">Photography 허유</p>
     </>
   );
 }

@@ -50,18 +50,6 @@ export default function WorkDetail13() {
     <>
       {isLoading && <p>Loading...</p>}
       {error && <p>{error}</p>}
-      <div className="video-container mb-5">
-        <iframe
-          id="ytplayer"
-          type="text/html"
-          src="https://www.youtube.com/embed/yoWppIOFMhA?rel=0"
-          frameborder="0"
-          allowfullScreen="allowfullscreen"
-          title="YouTube video player"
-          width="640"
-          height="390"
-        ></iframe>
-      </div>
       <img
         className="mb-5"
         src={image1}
@@ -74,6 +62,18 @@ export default function WorkDetail13() {
         alt="3 멸균의 공간, 프로잭션 맵핑, 가변설치.jpeg"
       />
       {/* <video className="mb-5" src={video1} controls></video> */}
+      <div className="video-container mb-5">
+        <iframe
+          id="ytplayer"
+          type="text/html"
+          src="https://www.youtube.com/embed/yoWppIOFMhA?rel=0"
+          frameborder="0"
+          allowfullScreen="allowfullscreen"
+          title="YouTube video player"
+          width="640"
+          height="390"
+        ></iframe>
+      </div>
     </>
   );
 }

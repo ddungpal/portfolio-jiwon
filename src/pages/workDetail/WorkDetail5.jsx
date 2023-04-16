@@ -51,6 +51,13 @@ export default function WorkDetail5() {
       {isLoading && <p>Loading...</p>}
       {error && <p>{error}</p>}
       <video className="mb-5" src={video1} controls autoPlay></video>
+      {/* <img
+        className="mb-5"
+        src={image1}
+        alt="1.Dialing,sound_interaction,_installation,AR.jpg"
+      /> */}
+      <img className="mb-5" src={image2} alt="2.Dialing,_Exhibiton_view.jpg" />
+      {/* <video className="mb-5" src={video2} controls></video> */}
       <div className="video-container mb-5">
         <iframe
           id="ytplayer"
@@ -63,13 +70,6 @@ export default function WorkDetail5() {
           height="390"
         ></iframe>
       </div>
-      {/* <img
-        className="mb-5"
-        src={image1}
-        alt="1.Dialing,sound_interaction,_installation,AR.jpg"
-      /> */}
-      <img className="mb-5" src={image2} alt="2.Dialing,_Exhibiton_view.jpg" />
-      {/* <video className="mb-5" src={video2} controls></video> */}
     </>
   );
 }

@@ -302,7 +302,7 @@ export default function About() {
           <p className="italic">Solo</p>
           <div className="flex">
             <div className="w-[50px]">2023</div>
-            <div>‘Mirroring Effect’, PAS gallery, Seoul, Korea (3-17 Mar.)</div>
+            <div>‘Mirroring Effect’, Pluripotent art space, Seoul, Korea (3-17 Mar.)</div>
           </div>
           <div className="flex">
             <div className="w-[50px]">2022</div>

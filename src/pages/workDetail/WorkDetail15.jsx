@@ -10,7 +10,7 @@ export default function WorkDetail15() {
   } = useQuery(["products15"], getProducts15);
 
   console.log(products15);
-  let image1 = "";
+  // let image1 = "";
   let image2 = "";
   let image3 = "";
   let image4 = "";
@@ -27,12 +27,12 @@ export default function WorkDetail15() {
   if (products15) {
     const _ = require("lodash");
     const productsOri = _.cloneDeep(products15);
-    const image1Obj =
-      productsOri &&
-      productsOri.filter(
-        (product) => product.id === "a1166ae5-cd29-412d-af8d-707710eb7316"
-      );
-    image1 = image1Obj[0].image;
+    // const image1Obj =
+    //   productsOri &&
+    //   productsOri.filter(
+    //     (product) => product.id === "a1166ae5-cd29-412d-af8d-707710eb7316"
+    //   );
+    // image1 = image1Obj[0].image;
     const image2Obj =
       productsOri &&
       productsOri.filter(
@@ -113,7 +113,7 @@ export default function WorkDetail15() {
     <>
       {isLoading && <p>Loading...</p>}
       {error && <p>{error}</p>}
-      <img className="mb-5" src={image1} alt="1.Untitled,2018.jpg" />
+      {/* <img className="mb-5" src={image1} alt="1.Untitled,2018.jpg" /> */}
       <img className="mb-5" src={image2} alt="2.Untitled,2018.jpg" />
       <img
         className="mb-5"

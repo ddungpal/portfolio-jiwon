@@ -16,7 +16,7 @@ export default function WorkDetail18() {
   let image4 = "";
   let image4_2 = "";
   let image5 = "";
-  let image5_2 = "";
+  // let image5_2 = "";
   let image6 = "";
   // let image7 = "";
   let image8 = "";
@@ -62,12 +62,12 @@ export default function WorkDetail18() {
         (product) => product.id === "6234d3f1-a4b5-4d08-b160-d2170058b524"
       );
     image5 = image5Obj[0].image;
-    const image5_2Obj =
-      productsOri &&
-      productsOri.filter(
-        (product) => product.id === "8d6c449f-3e86-4d3d-bb5d-47250ede8ce1"
-      );
-    image5_2 = image5_2Obj[0].image;
+    // const image5_2Obj =
+    //   productsOri &&
+    //   productsOri.filter(
+    //     (product) => product.id === "8d6c449f-3e86-4d3d-bb5d-47250ede8ce1"
+    //   );
+    // image5_2 = image5_2Obj[0].image;
     const image6Obj =
       productsOri &&
       productsOri.filter(
@@ -127,11 +127,11 @@ export default function WorkDetail18() {
         src={image5}
         alt="5.상(像)에 대한 드로잉,20x110cm,장지에 채색,2016.JPG"
       />
-      <img
+      {/* <img
         className="mb-5"
         src={image5_2}
         alt="5.상象, 57x77cm, pencil on paper, 2015.jpg"
-      />
+      /> */}
       <img
         className="mb-5"
         src={image6}

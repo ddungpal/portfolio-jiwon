@@ -186,7 +186,7 @@ export default function WorkDetail4() {
         onMouseOver={() => setIsHovering7(1)}
         onMouseOut={() => setIsHovering7(0)}
       > */}
-      <div className="mb-5">
+      <div className="mb-0">
         <img src={image7} alt="6.<FLOW>, Exhibition view" />
       </div>
       {/* {isHovering7 ? (
@@ -197,7 +197,7 @@ export default function WorkDetail4() {
           ""
         )} */}
       {/* </div> */}
-      <p className="mb-5">Photography 허유</p>
+      <p className="mb-5 italic text-slate-400">Photography 허유</p>
     </>
   );
 }
