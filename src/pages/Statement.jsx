@@ -5,8 +5,8 @@ export default function Exibition() {
   return (
     <>
       <Topbar />
-      <div className="container mx-auto lg:mt-20">
-        <div className="p-3 pt-5 lg:pt-2">
+      <div className="container mx-auto lg:mt-40">
+        <div className="p-3 pt-5 lg:pt-15">
           <p className="mb-3 text-xl font-bold">Inspiration</p>
           <p className="line-clamp text-justify">
             {" "}
