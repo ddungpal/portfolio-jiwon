@@ -84,8 +84,15 @@ export default function WorkDetail4() {
         onMouseOver={() => setIsHovering1(1)}
         onMouseOut={() => setIsHovering1(0)}
       > */}
-      <div className="mb-5">
-        <img src={image1} alt="0.<FLOW>,Exhibition_view" />
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image1}
+          alt="0.<FLOW>,Exhibition_view"
+        />
+        <span className="project__description">
+          &lt;FLOW&gt;,Exhibition_view
+        </span>
       </div>
       {/* {isHovering1 ? (
           <div className="img__text">
