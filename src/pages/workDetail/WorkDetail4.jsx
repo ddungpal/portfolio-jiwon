@@ -90,7 +90,7 @@ export default function WorkDetail4() {
           src={image1}
           alt="0.<FLOW>,Exhibition_view"
         />
-        <span className="project__description">
+        <span className="project__description text-xs lg:text-base">
           &lt;FLOW&gt;,Exhibition_view
         </span>
       </div>
