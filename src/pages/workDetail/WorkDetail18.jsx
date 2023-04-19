@@ -105,58 +105,116 @@ export default function WorkDetail18() {
     <>
       {isLoading && <p>Loading...</p>}
       {error && <p>{error}</p>}
-      <img className="mb-5" src={image1} alt="1.A letter, book(2016).JPG" />
-      <img
-        className="mb-5"
-        src={image2}
-        alt="2.어떤 의식1, 57x77cm, pencil on paper, 2015.jpg"
-      />
-      <img
-        className="mb-5"
-        src={image3}
-        alt="3.어떤 의식2, 57x77cm, pencil on paper, 2015.jpg"
-      />
-      <img
-        className="mb-5"
-        src={image4}
-        alt="4.어떤 의식3, 70x300cm, pencil on paper, 2015.jpg"
-      />
-      <img className="mb-5" src={image4_2} alt="4-1. Exhibition view.jpg" />
-      <img
-        className="mb-5"
-        src={image5}
-        alt="5.상(像)에 대한 드로잉,20x110cm,장지에 채색,2016.JPG"
-      />
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image1}
+          alt="1.A letter, book(2016).JPG"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          A letter, book(2016)
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image2}
+          alt="2.어떤 의식1, 57x77cm, pencil on paper, 2015.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          어떤 의식1, 57x77cm, pencil on paper, 2015
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image3}
+          alt="3.어떤 의식2, 57x77cm, pencil on paper, 2015.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          어떤 의식2, 57x77cm, pencil on paper, 2015
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image4}
+          alt="4.어떤 의식3, 70x300cm, pencil on paper, 2015.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          어떤 의식3, 70x300cm, pencil on paper, 2015
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image4_2}
+          alt="4-1. Exhibition view.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Exhibition view
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image5}
+          alt="5.상(像)에 대한 드로잉,20x110cm,장지에 채색,2016.JPG"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          상(像)에 대한 드로잉,20x110cm,장지에 채색,2016
+        </span>
+      </div>
       {/* <img
         className="mb-5"
         src={image5_2}
         alt="5.상象, 57x77cm, pencil on paper, 2015.jpg"
       /> */}
-      <img
-        className="mb-5"
-        src={image6}
-        alt="6.상象, 120x240cm, pigment on Hanji 2015.jpg"
-      />
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image6}
+          alt="6.상象, 120x240cm, pigment on Hanji 2015.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          상象, 120x240cm, pigment on Hanji 2015
+        </span>
+      </div>
       {/* <img
         className="mb-5"
         src={image7}
         alt="7. Perception Lab, Exhibition View(2016).jpg"
       /> */}
-      <img
-        className="mb-5"
-        src={image8}
-        alt="8. Perception Lab, Exhibition View(1).JPG"
-      />
-      <img
-        className="mb-5"
-        src={image8_2}
-        alt="8. Perception Lab, Exhibition View.JPG"
-      />
-      <img
-        className="mb-5"
-        src={image9}
-        alt="9. Perception Lab, Exhibition View.JPG"
-      />
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image8}
+          alt="8. Perception Lab, Exhibition View(1).JPG"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Perception Lab, Exhibition View(1)
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image8_2}
+          alt="8. Perception Lab, Exhibition View.JPG"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Perception Lab, Exhibition View
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image9}
+          alt="9. Perception Lab, Exhibition View.JPG"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Perception Lab, Exhibition View
+        </span>
+      </div>
     </>
   );
 }

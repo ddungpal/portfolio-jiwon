@@ -50,6 +50,41 @@ export default function WorkDetail13() {
     <>
       {isLoading && <p>Loading...</p>}
       {error && <p>{error}</p>}
+      <div className="">
+        <p className="p-2 mb-3 text-xl font-bold">
+          2020, AHACOLLECTIVE, 'AN UTOPIA AS AN ECOSYSTEM : PREFERABLE FUTURE'
+          <br />
+          ‌VR / Performance, sound installation
+        </p>
+        <p className="p-2 mb-5 line-clamp text-justify">
+          ‌‌‘An Utopia as an Ecosystem: Preferable future’ is a media
+          installation work that inducing to imagine a utopia on the present age
+          motivated on &lt;Mongyudowondo&gt;. With appearing scattered particles
+          of a peach surrounding SCENCE3: An asepsis space, it is overlapped
+          with SCENCE1: A mirage space and the space of utopia is circulated.
+          <br />
+          <br />
+          #SCENE1: A mirage space, projection mapping, installation On this
+          scene, AHAcollective throw a question about the universal utopia
+          metaphored to ‘Peach’ which is extracted from ‘Dohwawon’ which is
+          represented as a utopia in oriental traditional culture.
+          <br />
+          <br />
+          #SCENE2:A fastidious space, performance The movement for an utopia
+          started from doing disinfection bring human behavior that obsessed for
+          a sterilize in mind on the present age.
+          <br />
+          <br />
+          #SCENE3:An asepsis space, projection mapping, installation In an
+          asepsis space made of UV light, AHAcollective proposed for audience to
+          recognize a distopia which embedded in utopia. An asepsis space as an
+          alternative utopia is being area that human cannot alive as numerical
+          value of UV rays increasing. Through these switch of 3 scenes, we
+          expressed space-time of utopia and intended to look at the possibility
+          of changing meaning of utopia in order to point of view we have on
+          circumstances which can occur ambidextrous matters.
+        </p>
+      </div>
       <img
         className="mb-5"
         src={image1}

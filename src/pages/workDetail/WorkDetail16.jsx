@@ -159,88 +159,181 @@ export default function WorkDetail16() {
         src={image1}
         alt="1.낀 사람,21.5x16.5cm,pigment on Hanji.jpg"
       /> */}
-      <img
-        className="mb-5"
-        src={image2}
-        alt="2.이름없는 대화,131x163cm,pigment on Hanji.jpg"
-      />
-      <img
-        className="mb-5"
-        src={image3}
-        alt="3.바람,131x163cm,pigment on Hanji,2018.jpg"
-      />
-      <img
-        className="mb-5"
-        src={image4}
-        alt="4.와유(臥遊),120x120cm,pigment on Hanji,2018.jpg"
-      />
-      <img
-        className="mb-5"
-        src={image5_2}
-        alt="5.몇그램의 나, 23x30cm, pigment on Hanji,2018.jpg"
-      />
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image2}
+          alt="2.이름없는 대화,131x163cm,pigment on Hanji.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          이름없는 대화,131x163cm,pigment on Hanji
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image3}
+          alt="3.바람,131x163cm,pigment on Hanji,2018.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          바람,131x163cm,pigment on Hanji,2018
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image4}
+          alt="4.와유(臥遊),120x120cm,pigment on Hanji,2018.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          와유(臥遊),120x120cm,pigment on Hanji,2018
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image5_2}
+          alt="5.몇그램의 나, 23x30cm, pigment on Hanji,2018.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          몇그램의 나, 23x30cm, pigment on Hanji,2018
+        </span>
+      </div>
       {/* <img
         className="mb-5"
         src={image6}
         alt="6.Yellow Forest, 20x20cm, pigment on Hanji.jpg"
       /> */}
-      <img
-        className="mb-5"
-        src={image7}
-        alt="7.마을, 23x30cm, pigment on Hanji, 2018.jpg"
-      />
-      <img
-        className="mb-5"
-        src={image8}
-        alt="8.Untitled, 30x23cm, pigment on Hanji, 2018.jpg"
-      />
-      <img
-        className="mb-5"
-        src={image9}
-        alt="9.기쁨의 요소들,53x72.7cm,pigment on Hanji,2018.jpg"
-      />
-      <img
-        className="mb-5"
-        src={image10}
-        alt="10.기쁨의 요소들1,53x72.7cm,pigment on Hanji,2018.jpg"
-      />
-      <img
-        className="mb-5"
-        src={image11}
-        alt="11.Hyaline, 75x100cm, pigment on Hanji.jpg"
-      />
-      <img
-        className="mb-5"
-        src={image12}
-        alt="12.Untitled, 20x20cm, pigment on Hanji, 2018.jpg"
-      />
-      <img
-        className="mb-5"
-        src={image13}
-        alt="13.Sunset, 34x53cm, pigment on Hanji.jpg"
-      />
-      <img
-        className="mb-5"
-        src={image14}
-        alt="14.Untitled, 34x53cm, pigment on Hanji.jpg"
-      />
-      <img
-        className="mb-5"
-        src={image15}
-        alt="15.Moment,38.5x46cm,pigment on Hanji,2016.jpg"
-      />
-      <img
-        className="mb-5"
-        src={image16}
-        alt="16. night,38.5x46cm.pigment on Hanji,2016.jpg"
-      />
-      <img
-        className="mb-5"
-        src={image5}
-        alt="5.Yellow Forest, 20x20cm, pigment on Hanji.jpg"
-      />
-      <img className="mb-5" src={image17} alt="17.Exhibition View.jpg" />
-      <img className="mb-5" src={image18} alt="18.Exhibition View.jpg" />
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image7}
+          alt="7.마을, 23x30cm, pigment on Hanji, 2018.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          마을, 23x30cm, pigment on Hanji, 2018
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image8}
+          alt="8.Untitled, 30x23cm, pigment on Hanji, 2018.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Untitled, 30x23cm, pigment on Hanji, 2018
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image9}
+          alt="9.기쁨의 요소들,53x72.7cm,pigment on Hanji,2018.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          기쁨의 요소들,53x72.7cm,pigment on Hanji,2018
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image10}
+          alt="10.기쁨의 요소들1,53x72.7cm,pigment on Hanji,2018.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          기쁨의 요소들1,53x72.7cm,pigment on Hanji,2018
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image11}
+          alt="11.Hyaline, 75x100cm, pigment on Hanji.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Hyaline, 75x100cm, pigment on Hanji
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image12}
+          alt="12.Untitled, 20x20cm, pigment on Hanji, 2018.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Untitled, 20x20cm, pigment on Hanji, 2018
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image13}
+          alt="13.Sunset, 34x53cm, pigment on Hanji.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Sunset, 34x53cm, pigment on Hanji
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image14}
+          alt="14.Untitled, 34x53cm, pigment on Hanji.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Untitled, 34x53cm, pigment on Hanji
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image15}
+          alt="15.Moment,38.5x46cm,pigment on Hanji,2016.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Moment,38.5x46cm,pigment on Hanji,2016
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image16}
+          alt="16. night,38.5x46cm.pigment on Hanji,2016.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Night,38.5x46cm.pigment on Hanji,2016
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image5}
+          alt="5.Yellow Forest, 20x20cm, pigment on Hanji.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Yellow Forest, 20x20cm, pigment on Hanji
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image17}
+          alt="17.Exhibition View.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Exhibition View
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image18}
+          alt="18.Exhibition View.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Exhibition View
+        </span>
+      </div>
     </>
   );
 }

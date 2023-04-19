@@ -114,62 +114,122 @@ export default function WorkDetail15() {
       {isLoading && <p>Loading...</p>}
       {error && <p>{error}</p>}
       {/* <img className="mb-5" src={image1} alt="1.Untitled,2018.jpg" /> */}
-      <img className="mb-5" src={image2} alt="2.Untitled,2018.jpg" />
-      <img
-        className="mb-5"
-        src={image3}
-        alt="3.Hyaline,67x67cm, pigment on Hanji, 2018.jpg"
-      />
-      <img
-        className="mb-5"
-        src={image4}
-        alt="4.Hyaline,67x67cm, pigment on Hanji, 2018.jpg"
-      />
-      <img
-        className="mb-5"
-        src={image5}
-        alt="5.Hyaline,100x75cm, pigment on Hanji, 2018.jpg"
-      />
-      <img
-        className="mb-5"
-        src={image6}
-        alt="6.Hyaline,100x75cm, pigment on Hanji, 2018.jpg"
-      />
-      <img
-        className="mb-5"
-        src={image7}
-        alt="7. Palette, 34x53cm, pigment on Hanji,2018.jpg"
-      />
-      <img
-        className="mb-5"
-        src={image8}
-        alt="8. Palette, 34x53cm, pigment on Hanji,2018.jpg"
-      />
-      <img
-        className="mb-5"
-        src={image9}
-        alt="9. Palette, 34x53cm, pigment on Hanji,2018.jpg"
-      />
-      <img
-        className="mb-5"
-        src={image10}
-        alt="10. Palette, 34x53cm, pigment on Hanji,2018.jpg"
-      />
-      <img
-        className="mb-5"
-        src={image11}
-        alt="11. Palette, 34x53cm, pigment on Hanji,2018.jpg"
-      />
-      <img
-        className="mb-5"
-        src={image12}
-        alt="12. Supernumerary Rainbow, Exhibition view, 2018.jpg"
-      />
-      <img
-        className="mb-5"
-        src={image13}
-        alt="13. Supernumerary Rainbow, Exhibition view, 2018.jpg"
-      />
+      <div className="mb-5 project">
+        <img className="project__img" src={image2} alt="2.Untitled,2018.jpg" />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Untitled,2018
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image3}
+          alt="3.Hyaline,67x67cm, pigment on Hanji, 2018.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Hyaline,67x67cm, pigment on Hanji, 2018
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image4}
+          alt="4.Hyaline,67x67cm, pigment on Hanji, 2018.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Hyaline,67x67cm, pigment on Hanji, 2018
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image5}
+          alt="5.Hyaline,100x75cm, pigment on Hanji, 2018.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Hyaline,100x75cm, pigment on Hanji, 2018
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image6}
+          alt="6.Hyaline,100x75cm, pigment on Hanji, 2018.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Hyaline,100x75cm, pigment on Hanji, 2018
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image7}
+          alt="7. Palette, 34x53cm, pigment on Hanji,2018.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Palette, 34x53cm, pigment on Hanji,2018
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image8}
+          alt="8. Palette, 34x53cm, pigment on Hanji,2018.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Palette, 34x53cm, pigment on Hanji,2018
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image9}
+          alt="9. Palette, 34x53cm, pigment on Hanji,2018.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Palette, 34x53cm, pigment on Hanji,2018
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image10}
+          alt="10. Palette, 34x53cm, pigment on Hanji,2018.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Palette, 34x53cm, pigment on Hanji,2018
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image11}
+          alt="11. Palette, 34x53cm, pigment on Hanji,2018.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Palette, 34x53cm, pigment on Hanji,2018
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image12}
+          alt="12. Supernumerary Rainbow, Exhibition view, 2018.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Supernumerary Rainbow, Exhibition view, 2018
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image13}
+          alt="13. Supernumerary Rainbow, Exhibition view, 2018.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Supernumerary Rainbow, Exhibition view, 2018
+        </span>
+      </div>
     </>
   );
 }
