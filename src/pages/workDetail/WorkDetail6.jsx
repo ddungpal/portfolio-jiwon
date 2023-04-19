@@ -69,26 +69,46 @@ export default function WorkDetail6() {
           height="390"
         ></iframe>
       </div>
-      <img
-        className="mb-5"
-        src={image1}
-        alt="1.Piece of Light, Exhibition view.jpeg"
-      />
-      <img
-        className="mb-5"
-        src={image2}
-        alt="2.Piece of Sphere, 00_01_50, video, installation.jpeg"
-      />
-      <img
-        className="mb-5"
-        src={image3}
-        alt="3.Piece of Light, video installatioin.jpeg"
-      />
-      <img
-        className="mb-5"
-        src={image4}
-        alt="4.Piece of Light, Exhibition view.jpeg"
-      />
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image1}
+          alt="1.Piece of Light, Exhibition view.jpeg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Piece of Light, Exhibition view
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image2}
+          alt="2.Piece of Sphere, 00_01_50, video, installation.jpeg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Piece of Sphere, 00_01_50, video, installation
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image3}
+          alt="3.Piece of Light, video installatioin.jpeg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Piece of Light, video installatioin
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image4}
+          alt="4.Piece of Light, Exhibition view.jpeg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Piece of Light, Exhibition view
+        </span>
+      </div>
       {/* <video className="mb-5" src={video1} controls autoPlay></video> */}
     </>
   );

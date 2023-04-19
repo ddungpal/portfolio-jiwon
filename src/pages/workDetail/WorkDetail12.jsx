@@ -50,6 +50,42 @@ export default function WorkDetail12() {
     <>
       {isLoading && <p>Loading...</p>}
       {error && <p>{error}</p>}
+      <div className="">
+        <p className="p-2 mb-3 text-xl font-bold">
+          2019, ILWOLOBONG, Sound interaction
+        </p>
+        <p className="p-2 mb-5 line-clamp text-justify">
+          日月五峯2019 is a media-interaction work based on royal paintings of
+          the Joseon Dynasty, 日月五峯圖, which unravel the symbolic meaning of
+          日月五峯圖 from the perspective of the contemporary characteristic.
+          日月五峯圖 , consisting of five peaks and yin and yang (陰陽),
+          symbolizing the sun and moon, and the world, was installed right
+          behind the throne, symbolizing the authority and dignity of the king.
+          With the sun and the moon floating at the same time, the space where
+          five magnificent peaks can be gathered in one place represents
+          ‘authority-power’. Based on this traditional design, AHA collective
+          asked how ‘authority-power’ is expressed in modern society and tried
+          to show it in modelling.
+          <br /><br />
+          日月五峯2019 begins with the generation of fine light and sound in a
+          space in which nothing is visible. With red and white light repeatedly
+          embodied in the time when the sun and moon coexist, the audience goes
+          through a rather curved terrain. When faced with five waves located
+          around the terrain, the response of the sensors results in a different
+          sound. It is a collection of whispers of "unfounded remarks,"
+          including the scene of 日月五峯圖 , which witnessed the ups and downs
+          of Joseon and modern history, the unspecified number of protests
+          taking place in Gwanghwamun Square in front of Gyeongbok Palace, and
+          anonymous comments directed at certain figures. These sounds, which
+          are reproduced irregularly, are reproductions of ‘Current Power’.
+          <br /><br />
+          We hope to experience the constant alternating forces (Energy, Power)
+          according to the coordinates by using the wave, sound and light tools
+          that respond according to the individual's position, and to be able to
+          think about their position and direction as the person who performs
+          it.
+        </p>
+      </div>
       {/* <video className="mb-5" src={video1} controls autoPlay></video> */}
       <img className="mb-5" src={image1} alt="일월오봉.jpeg" />
       <img className="mb-5" src={image2} alt="일월오봉1.jpeg" />

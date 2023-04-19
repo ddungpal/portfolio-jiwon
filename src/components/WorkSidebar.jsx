@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function WorkSidebar({ selectedContent }) {
   const [part, setPart] = useState("All");
 
-  let contents_upcoming = ["1.궤도에서 벗어나는 꿈을꿔요.Painting"];
+  let contents_upcoming = ["1.Solo Exhibition.Painting"];
   let contents_2023 = ["2.Mirroring Effect.Project", "3.Spanning.Project"];
   let contents_2022 = [
     "4.FLOW.Painting",

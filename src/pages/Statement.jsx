@@ -5,68 +5,68 @@ export default function Exibition() {
   return (
     <>
       <Topbar />
-      <div className="container mx-auto lg:mt-40">
-        <div className="p-3 pt-5 lg:pt-15">
+      <div className="container mx-auto lg:mt-60">
+        <div className="p-3 pt-5 lg:pt-40">
           <p className="mb-3 text-xl font-bold">Inspiration</p>
           <p className="line-clamp text-justify">
-            {" "}
-            I’m a person who is naturally excited by the vague stroke. I
-            basically imagine abstract things as a kind of warm up to explore
-            unknown possibilities. Specifically, I am curious about the worth of
-            indefinableness. With staying away from a verbal definition, I
-            prefer to pursue making enough space with circumstance with enough
-            distance. I believe that surplus space can lead us to meet our inner
-            self. Facing the inner self simutaneously give rise to sense for
-            recognizing alien environment where we’ve never been to. I do this
-            shapeless approach as an express process in my life continuously.
-            Erasing borders and describing poetic fancies with a drawing and
-            painting is my fundamental and final itinerary.
+            I am a person who is naturally excited by shapeless strokes. I
+            imagine abstract things as a sort of introduction to exploring
+            unknown and nebulous possibilities. Specifically, I'm curious about
+            the value of the undefinable. Rather than striving for verbal
+            definitions, I prefer to create circumstances with enough space and
+            distance that allow the mind to wander; I believe that an excess of
+            space can lead us to meet our inner selves. When gazing upon our
+            inner selves, we can start to recognize foreign, alien environments
+            that we've never been. I practice this "shapeless" approach in my
+            life constantly. Erasing borders and describing poetic fancies with
+            drawings and paintings is always my fundamental and final itinerary.
           </p>
         </div>
         <div className="p-3 pt-5">
           <p className="mb-3 text-xl font-bold">Collaboration</p>
           <p className="line-clamp text-justify">
-            The other way of facing the inner self is being together in a
-            tranquil, coldish mood. I believe collisions with strangers based on
-            respect give birth to rather more public value. Through
-            collaboration and criticism with people who work in other
-            genres-fashion, traditional music, ai expert etc., we can find out
-            that a generalized knowledge sufficiently can be dissolved. Instead,
-            we can also redefine it on a relative aspect in each point of view.
-            I expect that discerning about things we meet based on collisions
-            and criticism will give us a warm and firm intuition for public
-            worth. This is what I dreamed of: the way that a private
-            conversation with inner thought is being absorbed creatively in the
+            Another way of facing the inner self is being together in tranquil,
+            cooled moods. I believe collisions with strangers based on respect
+            give birth to a more public sense of value. Through collaboration
+            and thoughtful criticism with people who work in other
+            mediums—whether fashion, traditional music, artificial intelligence,
+            among others—we can find that knowledge can be sufficiently
+            dissolved into a general, holistic existence. We can also redefine
+            it on a relative aspect from each point of view. I expect that by
+            distinguishing the things we encounter based on these collisions and
+            criticisms will give us a warm, firm intuition for public worth.
+            This is what I dreamed of: the way in which a private conversation
+            about an inner thought is creatively absorbed and set free in the
             world.
           </p>
         </div>
         <div className="p-3 pt-5">
           <p className="mb-3 text-xl font-bold">Gazing</p>
           <p className="line-clamp text-justify">
-            As for me, most of my inspiration is from time I gazed at
-            somethings-a scene which I encountered, a circumstance I
-            participated in, a relationship with others. Just observing these
-            with an earnest curiosity with enough time to relate with it in.
-            Intimating conversation starts on time in an appropriate timing when
-            I feel associated with any other stranger even if just in an
-            imagining. I’m gazing honestly, waiting freely with an expect
-            through leaving a surplus space for greeting.
+            Personally, most of my inspiration is from the times I gazed at
+            somethings: a scene I encountered, an event I participated in, a
+            relationship with others. I observe these with an eager curiosity
+            and give myself enough time to relate with them. I also intimate
+            conversations when I feel drawn or associated with any other
+            stranger, even if just in my imagination. I gaze honestly,
+            genuinely, and openly and freely wait, leaving space to welcome
+            thoughts or ideas.
           </p>
         </div>
         <div className="p-3 pt-5">
           <p className="mb-3 text-xl font-bold">Penetration</p>
           <p className="line-clamp text-justify">
-            Facing emptiness-white paper when I do painting drives me implicit
-            emotions. These occurred quite momentarily in a strong intuition
-            which stems from gazing experience. It also applied in a 3d space I
-            imagined and I express it as an Interdisciplinary art by crossing a
-            genre. In a process, a whole impromptu imagery becomes substituted
-            to a design for human experience. By planning experience in
-            exhibition space, a concept of idea is being divided in the aspect
-            of space-time detailed. Specifically, I focused on making ‘Intended
-            Contingency’ which can lead people to feel sympathy naturally. I
-            look forward to this sympathy will be a motive that can penetrate
-            peoples’ initial nature in the end.
+            Facing an empty, white paper when I paint drives my implicit
+            emotions. These occur briefly in a strong intuition that stems from
+            a gazing experience. I applied it to a three-dimensional space I
+            imagined, expressed as interdisciplinary art that crosses mediums.
+            In the process, impromptu imagery becomes substituted for a design
+            for human experience. By planning the experience in the exhibition
+            space, a concept is being divided in the aspect of detailed
+            space-time. Specifically, I focused on making 'Intended Contingency'
+            which can lead people to feel sympathy naturally. I hope this
+            sympathy will be a motive that can penetrate people's initial
+            natures in the end.
           </p>
         </div>
       </div>

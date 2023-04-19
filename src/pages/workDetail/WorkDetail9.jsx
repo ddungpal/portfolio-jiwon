@@ -28,7 +28,16 @@ export default function WorkDetail9() {
     <>
       {isLoading && <p>Loading...</p>}
       {error && <p>{error}</p>}
-      <img className="mb-5" src={image1} alt="1.0m3, media installation.jpeg" />
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image1}
+          alt="1.0m3, media installation.jpeg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          0m3, media installation
+        </span>
+      </div>
     </>
   );
 }

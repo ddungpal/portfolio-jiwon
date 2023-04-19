@@ -89,31 +89,51 @@ export default function WorkDetail7() {
         ></iframe>
       </div>
       {/* <video className="mb-5" src={video1} controls autoPlay></video> */}
-      <img
-        className="mb-5"
-        src={image1}
-        alt="2.‘우연히, Phasing’, projection mapping, 2022"
-      />
-      <img
-        className="mb-5"
-        src={image2}
-        alt="3. ‘0과 1의 Pulse’, installation, 2022"
-      />
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image1}
+          alt="2.‘우연히, Phasing’, projection mapping, 2022"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          ‘우연히, Phasing’, projection mapping, 2022
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image2}
+          alt="3. ‘0과 1의 Pulse’, installation, 2022"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          ‘0과 1의 Pulse’, installation, 2022
+        </span>
+      </div>
       {/* <img
         className="mb-5"
         src={image3}
         alt="4. ‘0과 1의 Pulse’, installation, 2022"
       /> */}
-      <img
-        className="mb-5"
-        src={image4}
-        alt="5. ‘0과 1의 Pulse’, installation, 2022"
-      />
-      <img
-        className="mb-5"
-        src={image5}
-        alt="6. ‘나무조각들을 위한 손’, 4channel video, 2022"
-      />
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image4}
+          alt="5. ‘0과 1의 Pulse’, installation, 2022"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          ‘0과 1의 Pulse’, installation, 2022
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image5}
+          alt="6. ‘나무조각들을 위한 손’, 4channel video, 2022"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          ‘나무조각들을 위한 손’, 4channel video, 2022
+        </span>
+      </div>
     </>
   );
 }

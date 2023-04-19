@@ -56,7 +56,16 @@ export default function WorkDetail5() {
         src={image1}
         alt="1.Dialing,sound_interaction,_installation,AR.jpg"
       /> */}
-      <img className="mb-5" src={image2} alt="2.Dialing,_Exhibiton_view.jpg" />
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image2}
+          alt="2.Dialing,_Exhibiton_view.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Dialing,_Exhibiton_view
+        </span>
+      </div>
       {/* <video className="mb-5" src={video2} controls></video> */}
       <div className="video-container mb-5">
         <iframe

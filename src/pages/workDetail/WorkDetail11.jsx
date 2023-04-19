@@ -42,11 +42,16 @@ export default function WorkDetail11() {
     <>
       {isLoading && <p>Loading...</p>}
       {error && <p>{error}</p>}
-      <img
-        className="mb-5"
-        src={image1}
-        alt="1.Siren, Fitting room exhibition view.jpg"
-      />
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image1}
+          alt="1.Siren, Fitting room exhibition view.jpg"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Siren, Fitting room exhibition view
+        </span>
+      </div>
       {/* <img
         className="mb-5"
         src={image2}

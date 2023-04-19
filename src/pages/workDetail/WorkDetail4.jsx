@@ -67,23 +67,10 @@ export default function WorkDetail4() {
     console.log("데이터를 받아오지 못했습니다.");
   }
 
-  // const [isHovering1, setIsHovering1] = useState(0);
-  // const [isHovering2, setIsHovering2] = useState(0);
-  // const [isHovering3, setIsHovering3] = useState(0);
-  // const [isHovering4, setIsHovering4] = useState(0);
-  // const [isHovering5, setIsHovering5] = useState(0);
-  // const [isHovering6, setIsHovering6] = useState(0);
-  // const [isHovering7, setIsHovering7] = useState(0);
-
   return (
     <>
       {isLoading && <p>Loading...</p>}
       {error && <p>{error}</p>}
-      {/* <div
-        className="img__wrap mb-5"
-        onMouseOver={() => setIsHovering1(1)}
-        onMouseOut={() => setIsHovering1(0)}
-      > */}
       <div className="mb-5 project">
         <img
           className="project__img"
@@ -94,117 +81,67 @@ export default function WorkDetail4() {
           &lt;FLOW&gt;,Exhibition_view
         </span>
       </div>
-      {/* {isHovering1 ? (
-          <div className="img__text">
-            <p>0_FLOW_Exhibition_view</p>
-          </div>
-        ) : (
-          ""
-        )} */}
-      {/* </div> */}
-
-      {/* <div
-        className="img__wrap mb-5"
-        onMouseOver={() => setIsHovering2(1)}
-        onMouseOut={() => setIsHovering2(0)}
-      > */}
-      <div className="mb-5">
-        <img src={image2} alt="1.Home, 120x120cm, pigment on Hanji" />
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image2}
+          alt="1.Home, 120x120cm, pigment on Hanji"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Home, 120x120cm, pigment on Hanji
+        </span>
       </div>
-      {/* {isHovering2 ? (
-          <div className="img__text">
-            <p>1.Home, 120x120cm, pigment on Hanji</p>
-          </div>
-        ) : (
-          ""
-        )} */}
-      {/* </div> */}
-
-      {/* <div
-        className="img__wrap mb-5"
-        onMouseOver={() => setIsHovering3(1)}
-        onMouseOut={() => setIsHovering3(0)}
-      > */}
-      <div className="mb-5">
-        <img src={image3} alt="2.Crypsis, 120x120cm, pigment on Hanji" />
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image3}
+          alt="2.Crypsis, 120x120cm, pigment on Hanji"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Crypsis, 120x120cm, pigment on Hanji
+        </span>
       </div>
-      {/* {isHovering3 ? (
-          <div className="img__text">
-            <p>2.Crypsis, 120x120cm, pigment on Hanji</p>
-          </div>
-        ) : (
-          ""
-        )} */}
-      {/* </div> */}
-
-      {/* <div
-        className="img__wrap mb-5"
-        onMouseOver={() => setIsHovering4(1)}
-        onMouseOut={() => setIsHovering4(0)}
-      > */}
-      <div className="mb-5">
-        <img src={image4} alt="3. Void, 120x120cm, pigment on Hanji" />
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image4}
+          alt="3. Void, 120x120cm, pigment on Hanji"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Void, 120x120cm, pigment on Hanji
+        </span>
       </div>
-      {/* {isHovering4 ? (
-          <div className="img__text">
-            <p>3. Void, 120x120cm, pigment on Hanji</p>
-          </div>
-        ) : (
-          ""
-        )} */}
-      {/* </div> */}
-
-      {/* <div
-        className="img__wrap mb-5"
-        onMouseOver={() => setIsHovering5(1)}
-        onMouseOut={() => setIsHovering5(0)}
-      > */}
-      <div className="mb-5">
-        <img src={image5} alt="4.FLOW, 163x131cm, pigment on Hanji" />
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image5}
+          alt="4.FLOW, 163x131cm, pigment on Hanji"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          FLOW, 163x131cm, pigment on Hanji
+        </span>
       </div>
-      {/* {isHovering5 ? (
-          <div className="img__text">
-            <p>4.FLOW, 163x131cm, pigment on Hanji</p>
-          </div>
-        ) : (
-          ""
-        )} */}
-      {/* </div> */}
-
-      {/* <div
-        className="img__wrap mb-5"
-        onMouseOver={() => setIsHovering6(1)}
-        onMouseOut={() => setIsHovering6(0)}
-      > */}
-      <div className="mb-5">
-        <img src={image6} alt="5.<FLOW>, Exhibition view" />
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image6}
+          alt="5.<FLOW>, Exhibition view"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          &lt;FLOW&gt;,Exhibition_view
+        </span>
       </div>
-      {/* {isHovering6 ? (
-          <div className="img__text">
-            <p>5._FLOW_, Exhibition view</p>
-          </div>
-        ) : (
-          ""
-        )} */}
-      {/* </div> */}
-
-      {/* <div
-        className="img__wrap mb-5"
-        onMouseOver={() => setIsHovering7(1)}
-        onMouseOut={() => setIsHovering7(0)}
-      > */}
-      <div className="mb-0">
-        <img src={image7} alt="6.<FLOW>, Exhibition view" />
+      <div className="mb-5 project">
+        <img
+          className="project__img"
+          src={image7}
+          alt="6.<FLOW>, Exhibition view"
+        />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          &lt;FLOW&gt;,Exhibition_view
+        </span>
       </div>
-      {/* {isHovering7 ? (
-          <div className="img__text">
-            <p>6._FLOW_, Exhibition view</p>
-          </div>
-        ) : (
-          ""
-        )} */}
-      {/* </div> */}
-      <p className="mb-5 italic text-slate-400">Photography 허유</p>
+      <p className="mb-5 italic text-slate-400 text-right text-sm">Photography 허유</p>
     </>
   );
 }
