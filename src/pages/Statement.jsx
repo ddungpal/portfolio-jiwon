@@ -5,9 +5,9 @@ export default function Exibition() {
   return (
     <>
       <Topbar />
-      <div className="container mx-auto lg:mt-60">
-        <div className="p-3 pt-5 lg:pt-40">
-          <p className="mb-3 text-xl font-bold">Inspiration</p>
+      <div className="container mx-auto lg:relative lg:h-[calc(100vh-80px)]">
+        <div className="p-3 lg:absolute lg:bottom-20">
+          <p className="mb-3 mt-5 text-xl font-bold">Inspiration</p>
           <p className="line-clamp text-justify">
             I am a person who is naturally excited by shapeless strokes. I
             imagine abstract things as a sort of introduction to exploring
@@ -21,9 +21,7 @@ export default function Exibition() {
             life constantly. Erasing borders and describing poetic fancies with
             drawings and paintings is always my fundamental and final itinerary.
           </p>
-        </div>
-        <div className="p-3 pt-5">
-          <p className="mb-3 text-xl font-bold">Collaboration</p>
+          <p className="mb-3 mt-5 text-xl font-bold">Collaboration</p>
           <p className="line-clamp text-justify">
             Another way of facing the inner self is being together in tranquil,
             cooled moods. I believe collisions with strangers based on respect
@@ -39,9 +37,7 @@ export default function Exibition() {
             about an inner thought is creatively absorbed and set free in the
             world.
           </p>
-        </div>
-        <div className="p-3 pt-5">
-          <p className="mb-3 text-xl font-bold">Gazing</p>
+          <p className="mb-3 mt-5 text-xl font-bold">Gazing</p>
           <p className="line-clamp text-justify">
             Personally, most of my inspiration is from the times I gazed at
             somethings: a scene I encountered, an event I participated in, a
@@ -52,9 +48,7 @@ export default function Exibition() {
             genuinely, and openly and freely wait, leaving space to welcome
             thoughts or ideas.
           </p>
-        </div>
-        <div className="p-3 pt-5">
-          <p className="mb-3 text-xl font-bold">Penetration</p>
+          <p className="mb-3 mt-5 text-xl font-bold">Penetration</p>
           <p className="line-clamp text-justify">
             Facing an empty, white paper when I paint drives my implicit
             emotions. These occur briefly in a strong intuition that stems from
