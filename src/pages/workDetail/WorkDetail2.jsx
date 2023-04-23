@@ -182,25 +182,41 @@ export default function WorkDetail2() {
       <img className="mb-5" src={image19} alt="19.jpg" />
       <img className="mb-3" src={image20} alt="20.jpg" />
       <div className="">
-        <p className="p-2 line-clamp text-justify font-serif text-sm tracking-normal">
+        <p className="p-2 pt-0 pb-2 line-clamp text-justify text-sm">
           2023, AHACOLLECTIVE, ‘노노바운즈(Know no bounds)’,00:01:40, loop,
           single channel video, dimension variable
-          <br /> 2023, AHACOLLECTIVE, ‘노노바운즈2(Know no bounds)’, 138x113cm,
+        </p>
+        <p className="p-2 pt-0 pb-2 line-clamp text-justify text-sm">
+          2023, AHACOLLECTIVE, ‘노노바운즈2(Know no bounds)’, 138x113cm,
           interactive installation, dimension variable
-          <br /> 2023, AHACOLLECTIVE, ‘Objects in mirror are ___ they appear’,
+        </p>
+        <p className="p-2 pt-0 pb-2 line-clamp text-justify text-sm">
+          2023, AHACOLLECTIVE, ‘Objects in mirror are ___ they appear’,
           00:02:30, surround sound
-          <br /> 2023, AHACOLLECTIVE, ‘Objects in mirror 1’, 00:00:40, loop,
-          single channel video, dimension variable
-          <br /> 2023, AHACOLLECTIVE, ‘Objects in mirror 2’, 00:00:40, loop,
-          single channel video, dimension variable
-          <br /> 2023, AHACOLLECTIVE, ‘Objects in mirror 3’, 00:00:40, loop,
-          single channel video, dimension variable
-          <br /> 2023, AHACOLLECTIVE, ‘Pulse’, 70x70x150cm, mixed media,
-          dimension variable
-          <br /> 2023, AHACOLLECTIVE, ‘Ping’, 70x50cm, digital print
+        </p>
+        <p className="p-2 pt-0 pb-2 line-clamp text-justify text-sm">
+          2023, AHACOLLECTIVE, ‘Objects in mirror 1’, 00:00:40, loop, single
+          channel video, dimension variable
+        </p>
+        <p className="p-2 pt-0 pb-2 line-clamp text-justify text-sm">
+          2023, AHACOLLECTIVE, ‘Objects in mirror 2’, 00:00:40, loop, single
+          channel video, dimension variable
+        </p>
+        <p className="p-2 pt-0 pb-2 line-clamp text-justify text-sm">
+          2023, AHACOLLECTIVE, ‘Objects in mirror 3’, 00:00:40, loop, single
+          channel video, dimension variable
+        </p>
+        <p className="p-2 pt-0 pb-2 line-clamp text-justify text-sm">
+          2023, AHACOLLECTIVE, ‘Pulse’, 70x70x150cm, mixed media, dimension
+          variable
+        </p>
+        <p className="p-2 pt-0 pb-2 line-clamp text-justify text-sm">
+          2023, AHACOLLECTIVE, ‘Ping’, 70x50cm, digital print
         </p>
       </div>
-      <p className="mb-5 italic text-slate-400 text-right text-sm">Photography 허유</p>
+      <p className="mb-5 italic text-slate-400 text-right text-sm">
+        Photography 허유
+      </p>
     </>
   );
 }
