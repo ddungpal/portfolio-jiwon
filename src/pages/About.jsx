@@ -243,8 +243,7 @@ export default function About() {
           <div className="flex">
             <div className="w-[50px]">2017</div>
             <div>
-              (MA) Asian painting, Seoul National University CREATIVE+’,
-              Organization:KOCCA Supervision:Art Center NABI
+              (MA) Asian painting, Seoul National University
             </div>
           </div>
           <div className="flex">

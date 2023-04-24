@@ -113,3 +113,7 @@
   transform: translateY(0px);
   opacity: 0.5;
 }
+
+.mirroring__font {
+  font-size: 10px;
+}
