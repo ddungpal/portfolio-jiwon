@@ -176,21 +176,21 @@ export default function WorkDetail2() {
       <div className="mb-5 project">
         <img className="project__img" src={image3} alt="3.jpg" />
         <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          2023, AHACOLLECTIVE, 'Know no bounds’ 00:01:40, loop,
+          2023, AHACOLLECTIVE, 'Know no bounds’ loop,
           single channel video, dimension variable
         </span>
       </div>
       <div className="mb-5 project">
         <img className="project__img" src={image4} alt="4.jpg" />
         <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          2023, AHACOLLECTIVE, 'Know no bounds’ 00:01:40, loop,
+          2023, AHACOLLECTIVE, 'Know no bounds’ loop,
           single channel video, dimension variable
         </span>
       </div>
       <div className="mb-5 project">
         <img className="project__img" src={image5} alt="5.jpg" />
         <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          2023, AHACOLLECTIVE, 'Know no bounds’ 00:01:40, loop,
+          2023, AHACOLLECTIVE, 'Know no bounds’ loop,
           single channel video, dimension variable
         </span>
       </div>
@@ -203,14 +203,14 @@ export default function WorkDetail2() {
       <div className="mb-5 project">
         <img className="project__img" src={image7} alt="7.jpg" />
         <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          2023, AHACOLLECTIVE, 'Know no bounds’ 00:01:40, loop,
+          2023, AHACOLLECTIVE, 'Know no bounds’ loop,
           single channel video, dimension variable
         </span>
       </div>
       <div className="mb-5 project">
         <img className="project__img" src={image8} alt="8.jpg" />
         <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          2023, AHACOLLECTIVE, 'Know no bounds’ 00:01:40, loop,
+          2023, AHACOLLECTIVE, 'Know no bounds’ loop,
           single channel video, dimension variable
         </span>
       </div>
@@ -265,35 +265,35 @@ export default function WorkDetail2() {
       <div className="mb-5 project">
         <img className="project__img" src={image16} alt="16.jpg" />
         <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          2023, AHACOLLECTIVE, 'Know no bounds’ 138x113cm,
+          2023, AHACOLLECTIVE, 'Know no bounds’,
           interactive installation, dimension variable
         </span>
       </div>
       <div className="mb-5 project">
         <img className="project__img" src={image17} alt="17.jpg" />
         <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          2023, AHACOLLECTIVE, 'Know no bounds’ 138x113cm,
+          2023, AHACOLLECTIVE, 'Know no bounds’,
           interactive installation, dimension variable
         </span>
       </div>
       <div className="mb-5 project">
         <img className="project__img" src={image18} alt="18.jpg" />
         <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          2023, AHACOLLECTIVE, 'Know no bounds’ 138x113cm,
+          2023, AHACOLLECTIVE, 'Know no bounds’,
           interactive installation, dimension variable
         </span>
       </div>
       <div className="mb-5 project">
         <img className="project__img" src={image19} alt="19.jpg" />
         <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          2023, AHACOLLECTIVE, 'Know no bounds’ 138x113cm,
+          2023, AHACOLLECTIVE, 'Know no bounds’,
           interactive installation, dimension variable
         </span>
       </div>
       <div className="mb-5 project">
         <img className="project__img" src={image20} alt="20.jpg" />
         <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          2023, AHACOLLECTIVE, 'Know no bounds’ 138x113cm,
+          2023, AHACOLLECTIVE, 'Know no bounds’,
           interactive installation, dimension variable
         </span>
       </div>
