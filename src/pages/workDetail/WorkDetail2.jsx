@@ -161,60 +161,178 @@ export default function WorkDetail2() {
     <>
       {isLoading && <p>Loading...</p>}
       {error && <p>{error}</p>}
-      <img className="mb-5" src={image1} alt="1.jpg" />
-      <img className="mb-5" src={image2} alt="2.jpg" />
-      <img className="mb-5" src={image3} alt="3.jpg" />
-      <img className="mb-5" src={image4} alt="4.jpg" />
-      <img className="mb-5" src={image5} alt="5.jpg" />
-      <img className="mb-5" src={image6} alt="6.jpg" />
-      <img className="mb-5" src={image7} alt="7.jpg" />
-      <img className="mb-5" src={image8} alt="8.jpg" />
-      <img className="mb-5" src={image9} alt="9.jpg" />
-      <img className="mb-5" src={image10} alt="10.jpg" />
-      <img className="mb-5" src={image11} alt="11.jpg" />
-      <img className="mb-5" src={image11_2} alt="11(1).jpg" />
-      <img className="mb-5" src={image12} alt="12.jpg" />
-      <img className="mb-5" src={image14} alt="14.jpg" />
-      <img className="mb-5" src={image15} alt="15.jpg" />
-      <img className="mb-5" src={image16} alt="16.jpg" />
-      <img className="mb-5" src={image17} alt="17.jpg" />
-      <img className="mb-5" src={image18} alt="18.jpg" />
-      <img className="mb-5" src={image19} alt="19.jpg" />
-      <img className="mb-3" src={image20} alt="20.jpg" />
-      <div className="text-right mirroring__font">
-        <p className="p-2 pt-0 pb-4 line-clamp">
-          2023, AHACOLLECTIVE, ‘노노바운즈(Know no bounds)’<br /> 00:01:40, loop,
+      <div className="mb-5 project">
+        <img className="project__img" src={image1} alt="1.jpg" />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Exhibition view
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img className="project__img" src={image2} alt="2.jpg" />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          Exhibition view
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img className="project__img" src={image3} alt="3.jpg" />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          2023, AHACOLLECTIVE, ‘노노바운즈(Know no bounds)’ 00:01:40, loop,
           single channel video, dimension variable
-        </p>
-        <p className="p-2 pt-0 pb-4 line-clamp">
-          2023, AHACOLLECTIVE, ‘노노바운즈2(Know no bounds)’<br /> 138x113cm,
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img className="project__img" src={image4} alt="4.jpg" />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          2023, AHACOLLECTIVE, ‘노노바운즈(Know no bounds)’ 00:01:40, loop,
+          single channel video, dimension variable
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img className="project__img" src={image5} alt="5.jpg" />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          2023, AHACOLLECTIVE, ‘노노바운즈(Know no bounds)’ 00:01:40, loop,
+          single channel video, dimension variable
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img className="project__img" src={image6} alt="6.jpg" />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          2023, AHACOLLECTIVE, ‘노노바운즈2(Know no bounds)’
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img className="project__img" src={image7} alt="7.jpg" />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          2023, AHACOLLECTIVE, ‘노노바운즈(Know no bounds)’ 00:01:40, loop,
+          single channel video, dimension variable
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img className="project__img" src={image8} alt="8.jpg" />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          2023, AHACOLLECTIVE, ‘노노바운즈(Know no bounds)’ 00:01:40, loop,
+          single channel video, dimension variable
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img className="project__img" src={image9} alt="9.jpg" />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          2023, AHACOLLECTIVE, ‘Pulse’ 70x70x150cm, mixed media, dimension
+          variable
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img className="project__img" src={image10} alt="10.jpg" />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          2023, AHACOLLECTIVE, ‘Pulse’ 70x70x150cm, mixed media, dimension
+          variable
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img className="project__img" src={image11} alt="11.jpg" />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          2023, AHACOLLECTIVE, ‘Pulse’ 70x70x150cm, mixed media, dimension
+          variable
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img className="project__img" src={image11_2} alt="11(1).jpg" />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          2023, AHACOLLECTIVE, ‘Pulse’ 70x70x150cm, mixed media, dimension
+          variable
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img className="project__img" src={image12} alt="12.jpg" />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          2023, AHACOLLECTIVE, ‘Objects in mirror are ___ they appear’ 00:02:30,
+          surround sound
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img className="project__img" src={image14} alt="14.jpg" />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          2023, AHACOLLECTIVE, ‘Pulse’ 70x70x150cm, mixed media, dimension
+          variable
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img className="project__img" src={image15} alt="15.jpg" />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          2023, AHACOLLECTIVE, ‘Ping’ 70x50cm, digital print
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img className="project__img" src={image16} alt="16.jpg" />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          2023, AHACOLLECTIVE, ‘노노바운즈2(Know no bounds)’ 138x113cm,
           interactive installation, dimension variable
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img className="project__img" src={image17} alt="17.jpg" />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          2023, AHACOLLECTIVE, ‘노노바운즈2(Know no bounds)’ 138x113cm,
+          interactive installation, dimension variable
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img className="project__img" src={image18} alt="18.jpg" />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          2023, AHACOLLECTIVE, ‘노노바운즈2(Know no bounds)’ 138x113cm,
+          interactive installation, dimension variable
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img className="project__img" src={image19} alt="19.jpg" />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          2023, AHACOLLECTIVE, ‘노노바운즈2(Know no bounds)’ 138x113cm,
+          interactive installation, dimension variable
+        </span>
+      </div>
+      <div className="mb-5 project">
+        <img className="project__img" src={image20} alt="20.jpg" />
+        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
+          2023, AHACOLLECTIVE, ‘노노바운즈2(Know no bounds)’ 138x113cm,
+          interactive installation, dimension variable
+        </span>
+      </div>
+      {/* <div className="text-right mirroring__font">
+        <p className="p-2 pt-0 pb-4 line-clamp">
+          2023, AHACOLLECTIVE, ‘노노바운즈(Know no bounds)’
+          <br /> 00:01:40, loop, single channel video, dimension variable
         </p>
         <p className="p-2 pt-0 pb-4 line-clamp">
-          2023, AHACOLLECTIVE, ‘Objects in mirror are ___ they appear’<br />
+          2023, AHACOLLECTIVE, ‘노노바운즈2(Know no bounds)’
+          <br /> 138x113cm, interactive installation, dimension variable
+        </p>
+        <p className="p-2 pt-0 pb-4 line-clamp">
+          2023, AHACOLLECTIVE, ‘Objects in mirror are ___ they appear’
+          <br />
           00:02:30, surround sound
         </p>
         <p className="p-2 pt-0 pb-4 line-clamp">
-          2023, AHACOLLECTIVE, ‘Objects in mirror 1’<br /> 00:00:40, loop, single
-          channel video, dimension variable
+          2023, AHACOLLECTIVE, ‘Objects in mirror 1’
+          <br /> 00:00:40, loop, single channel video, dimension variable
         </p>
         <p className="p-2 pt-0 pb-4 line-clamp">
-          2023, AHACOLLECTIVE, ‘Objects in mirror 2’<br /> 00:00:40, loop, single
-          channel video, dimension variable
+          2023, AHACOLLECTIVE, ‘Objects in mirror 2’
+          <br /> 00:00:40, loop, single channel video, dimension variable
         </p>
         <p className="p-2 pt-0 pb-4 line-clamp">
-          2023, AHACOLLECTIVE, ‘Objects in mirror 3’<br /> 00:00:40, loop, single
-          channel video, dimension variable
+          2023, AHACOLLECTIVE, ‘Objects in mirror 3’
+          <br /> 00:00:40, loop, single channel video, dimension variable
         </p>
         <p className="p-2 pt-0 pb-4 line-clamp">
-          2023, AHACOLLECTIVE, ‘Pulse’<br /> 70x70x150cm, mixed media, dimension
-          variable
+          2023, AHACOLLECTIVE, ‘Pulse’
+          <br /> 70x70x150cm, mixed media, dimension variable
         </p>
         <p className="p-2 pt-0 pb-4 line-clamp">
-          2023, AHACOLLECTIVE, ‘Ping’<br /> 70x50cm, digital print
+          2023, AHACOLLECTIVE, ‘Ping’
+          <br /> 70x50cm, digital print
         </p>
-      </div>
-      <p className="pr-2 mb-5 italic text-slate-400 text-right mirroring__font">
+      </div> */}
+      <p className="pr-2 mb-5 italic text-slate-400 text-right text-sm">
         Photography 허유
       </p>
     </>
