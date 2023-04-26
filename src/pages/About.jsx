@@ -2,11 +2,22 @@ import React from "react";
 import Avatar from "../components/Avatar";
 import Topbar from "../components/Topbar";
 import profileimg from "../imgs/about/profile.png";
+import { useLanguageMode } from "../context/LanguageContext";
 
 export default function About() {
+  const { koMode, toggleKoMode } = useLanguageMode();
   return (
     <>
       <Topbar />
+      <div className="container mx-auto text-right">
+        <button onClick={() => toggleKoMode()}>
+          {koMode ? (
+            <h1 className="font-bold hover:text-indigo-300">Ko</h1>
+          ) : (
+            <h1 className="font-bold hover:text-indigo-300">En</h1>
+          )}
+        </button>
+      </div>
       <div className="mt-5 container mx-auto lg:flex lg:flex-row-reverse">
         <div className="lg:w-1/4">
           <Avatar image={profileimg} />
@@ -242,9 +253,7 @@ export default function About() {
           <p className="mb-2 underline font-semibold">Education</p>
           <div className="flex">
             <div className="w-[50px]">2017</div>
-            <div>
-              (MA) Asian painting, Seoul National University
-            </div>
+            <div>(MA) Asian painting, Seoul National University</div>
           </div>
           <div className="flex">
             <div className="w-[50px]"></div>
@@ -301,7 +310,10 @@ export default function About() {
           <p className="italic">Solo</p>
           <div className="flex">
             <div className="w-[50px]">2023</div>
-            <div>‘Mirroring Effect’, Pluripotent art space, Seoul, Korea (3-17 Mar.)</div>
+            <div>
+              ‘Mirroring Effect’, Pluripotent art space, Seoul, Korea (3-17
+              Mar.)
+            </div>
           </div>
           <div className="flex">
             <div className="w-[50px]">2022</div>
@@ -374,8 +386,9 @@ export default function About() {
             <div className="w-[50px]">2021</div>
             <div>
               《Namisum Media Festival》, 《Ganjeolgok Media Festival》, 《Muan
-              Airport(Media Facade)》, <br />《Jeju Media Festival》, 《Cafe
-              botbotbot(Interactive Media wall project)》
+              Airport(Media Facade)》, <br />
+              《Jeju Media Festival》, 《Cafe botbotbot(Interactive Media wall
+              project)》
             </div>
           </div>
         </div>
