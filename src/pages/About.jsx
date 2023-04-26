@@ -9,7 +9,7 @@ export default function About() {
   return (
     <>
       <Topbar />
-      <div className="container mx-auto text-right">
+      <div className="container mx-auto text-right px-5 lg:px-1">
         <button onClick={() => toggleKoMode()}>
           {koMode ? (
             <h1 className="font-bold hover:text-indigo-300">Ko</h1>
