@@ -60,10 +60,15 @@ export default function Topbar() {
             </li>
             <li className="nav-item">
               <Link to="https://www.instagram.com/ppingagain/" target="_blank">
-                <h1 className="font-bold text-2xl hover:text-indigo-300 mt-2">
+                <h1 className="font-bold text-2xl hover:text-indigo-300 mt-1.5">
                   <BsInstagram />
                 </h1>
               </Link>
+            </li>
+            <li className="nav-item">
+              <button>
+                <h1 className="font-bold hover:text-indigo-300">En</h1>
+              </button>
             </li>
             {/* <li className="nav-item">
               <Link to="/upload">

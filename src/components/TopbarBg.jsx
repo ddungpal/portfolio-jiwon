@@ -3,10 +3,12 @@ import { Link } from "react-router-dom";
 import { BsInstagram } from "react-icons/bs";
 // import { AiOutlineMenu } from "react-icons/ai";
 import menuBtn from "../imgs/home/topbarMenu.png";
+import { useLanguageMode } from "../context/LanguageContext";
 
-export default function Topbar() {
+export default function TopbarBg() {
   // const [navbar, setNavbar] = useState(false);
   const [navbarOpen, setNavbarOpen] = React.useState(false);
+  const {koMode, toggleKoMode} = useLanguageMode();
 
   return (
     <nav className="sticky top-0 relative flex flex-wrap items-center justify-between px-2 py-3 mb-3">
@@ -62,10 +64,19 @@ export default function Topbar() {
             </li>
             <li className="nav-item">
               <Link to="https://www.instagram.com/ppingagain/" target="_blank">
-                <h1 className="font-bold text-2xl hover:text-indigo-300 mt-2">
+                <h1 className="font-bold text-2xl hover:text-indigo-300 mt-1.5">
                   <BsInstagram />
                 </h1>
               </Link>
+            </li>
+            <li className="nav-item">
+              <button onClick={() => toggleKoMode()}>
+                {koMode ? (
+                  <h1 className="font-bold hover:text-indigo-300">Ko</h1>
+                ) : (
+                  <h1 className="font-bold hover:text-indigo-300">En</h1>
+                )}
+              </button>
             </li>
           </ul>
         </div>
