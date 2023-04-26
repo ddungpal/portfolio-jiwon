@@ -956,7 +956,7 @@ export default function About() {
             </>
           )}
         </div>
-        <div className="p-5 pt-0 ">
+        {/* <div className="p-5 pt-0 ">
           {koMode ? (
             <>
               {" "}
@@ -970,7 +970,7 @@ export default function About() {
               <p>Switching (for lighting fixture)</p>
             </>
           )}
-        </div>
+        </div> */}
         {/* <div className="p-5 pt-0 ">
           <p className="mb-2 underline font-semibold">Education</p>
           <p>(MA,BA) Oriental painting, Seoul National University, Korea</p>
