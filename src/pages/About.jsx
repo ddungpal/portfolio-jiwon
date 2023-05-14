@@ -16,36 +16,40 @@ export default function About() {
   return (
     <>
       <Topbar />
-      <div className="container mx-auto px-5 lg:px-1 flex flex-row-reverse">
-        <button onClick={() => toggleKoMode()}>
-          {koMode ? (
-            <h1 className="font-bold hover:text-indigo-300">En</h1>
-          ) : (
-            <h1 className="font-bold hover:text-indigo-300">Ko</h1>
-          )}
-        </button>
-        <button
-          onMouseOver={() => setIsTeamBtnHover(true)}
-          onMouseOut={() => setIsTeamBtnHover(false)}
-          onClick={() => setPart((part) => "Team")}
-        >
-          <img
-            src={isTeamBtnHover ? selectBtn : teamBtn}
-            alt="metamask"
-            className="h-8 w-8"
-          />
-        </button>
-        <button
-          onMouseOver={() => setIsSingleBtnHover(true)}
-          onMouseOut={() => setIsSingleBtnHover(false)}
-          onClick={() => setPart((part) => "Single")}
-        >
-          <img
-            src={isSingeBtnHover ? selectBtn : singleBtn}
-            alt="metamask"
-            className="h-8 w-8"
-          />
-        </button>
+      <div className="container mx-auto px-5 lg:px-1 flex justify-between">
+        <div>
+          <button
+            onMouseOver={() => setIsSingleBtnHover(true)}
+            onMouseOut={() => setIsSingleBtnHover(false)}
+            onClick={() => setPart((part) => "Single")}
+          >
+            <img
+              src={isSingeBtnHover ? selectBtn : singleBtn}
+              alt="metamask"
+              className="h-8 w-8"
+            />
+          </button>
+          <button
+            onMouseOver={() => setIsTeamBtnHover(true)}
+            onMouseOut={() => setIsTeamBtnHover(false)}
+            onClick={() => setPart((part) => "Team")}
+          >
+            <img
+              src={isTeamBtnHover ? selectBtn : teamBtn}
+              alt="metamask"
+              className="h-8 w-8"
+            />
+          </button>
+        </div>
+        <div>
+          <button onClick={() => toggleKoMode()}>
+            {koMode ? (
+              <h1 className="font-bold hover:text-indigo-300">En</h1>
+            ) : (
+              <h1 className="font-bold hover:text-indigo-300">Ko</h1>
+            )}
+          </button>
+        </div>
       </div>
       {part === "Single" ? (
         <div>
@@ -589,10 +593,10 @@ export default function About() {
               {koMode ? (
                 <>
                   {" "}
-                  <p className="font-semibold">아하콜렉티브(b.2018)</p>
+                  {/* <p className="font-semibold">아하콜렉티브(b.2018)</p>
                   <p className="font-semibold">
                     최지원 I 정혜리 I 김샛별 I 박주애
-                  </p>
+                  </p> */}
                   <hr className="mt-2" />
                   <p className="p-2 line-clamp text-justify">
                     아하콜렉티브는 2018년 결성된 콜렉티브로 전통, 아날로그 등과
@@ -609,10 +613,10 @@ export default function About() {
               ) : (
                 <>
                   {" "}
-                  <p className="font-semibold">AHACOLLECTIVE(b.2018)</p>
+                  {/* <p className="font-semibold">AHACOLLECTIVE(b.2018)</p>
                   <p className="font-semibold">
                     CHOI, Jiwon I CHUNG, Hyeree I KIM, Saetbyul I PARK, Juaee
-                  </p>
+                  </p> */}
                   <hr className="mt-2" />
                   <p className="p-2 line-clamp text-justify">
                     AHACOLLECTIVE is a collective formed in 2018 that digitally
