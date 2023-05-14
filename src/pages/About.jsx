@@ -423,7 +423,7 @@ export default function About() {
                   <div className="flex">
                     <div className="w-min mr-2">2020</div>
                     <div>
-                      ‘글로벌 공공미술프로젝트: CONNECT,BTS’, 커뮤니케이션,
+                      글로벌 공공미술프로젝트: CONNECT,BTS, 커뮤니케이션,
                       (주)Hzone
                     </div>
                   </div>
@@ -497,7 +497,7 @@ export default function About() {
                   <div className="flex">
                     <div className="w-min mr-2">2020</div>
                     <div>
-                      ‘Global Public Art Project: CONNECT,BTS’, Communication,
+                      Global Public Art Project: CONNECT,BTS, Communication,
                       Hzone Ltd.
                     </div>
                   </div>
