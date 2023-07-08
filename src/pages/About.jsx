@@ -97,15 +97,15 @@ export default function About() {
                 <>
                   <p className="mb-2 underline font-semibold">CV</p>
                   <p>웹사이트: www.choijiwon.kr</p>
-                  <p>인스타그램: @ji1__choi</p>
-                  <p>이메일: contact@choijiwon.kr</p>
+                  <p>인스타그램: @jiwonchoi_artwork</p>
+                  <p>이메일: jiwonchoistudio@gmail.com</p>
                 </>
               ) : (
                 <>
                   <p className="mb-2 underline font-semibold">CV</p>
                   <p>Webpage: www.choijiwon.kr</p>
-                  <p>Instagram: @ji1__choi</p>
-                  <p>Email: contact@choijiwon.kr</p>
+                  <p>Instagram: @jiwonchoi_artwork</p>
+                  <p>Email: jiwonchoistudio@gmail.com</p>
                 </>
               )}
             </div>
@@ -116,10 +116,7 @@ export default function About() {
                   <p className="italic">개인전</p>
                   <div className="flex">
                     <div className="w-min mr-2">2023</div>
-                    <div>
-                      ‘궤도에서 벗어나는 꿈을꿔요’, 플루리포텐트 아트스페이스
-                      (Upcoming, July)
-                    </div>
+                    <div>‘춤추는 내향성’, 플루리포텐트 아트스페이스, 서울</div>
                   </div>
                   <div className="flex">
                     <div className="w-min mr-2">2018</div>
@@ -248,8 +245,7 @@ export default function About() {
                   <div className="flex">
                     <div className="w-min mr-2">2023</div>
                     <div>
-                      ‘The way to leave orbit’, Pluripotent art space, Seoul
-                      (Upcoming, July)
+                      'Swaying Introversion', Pluripotent artspace, Seoul
                     </div>
                   </div>
                   <div className="flex">

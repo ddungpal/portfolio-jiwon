@@ -5,8 +5,8 @@ export default function Exibition() {
   return (
     <>
       <Topbar />
-      <div className="relative flex flex-wrap items-center justify-between px-2">
-        <div className="container mx-auto flex flex-wrap items-center justify-between">
+      <div className="container mx-auto flex items-center justify-between mt-10">
+        <div className="">
           Exibition!
         </div>
       </div>

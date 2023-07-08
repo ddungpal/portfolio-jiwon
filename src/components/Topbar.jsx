@@ -33,6 +33,11 @@ export default function Topbar() {
           id="example-navbar-danger"
         >
           <ul className="flex flex-col lg:flex-row list-none lg:ml-auto lg:space-x-4 text-xl lg:text-2xl">
+            {/* <li className="nav-item">
+              <Link to="/exhibition">
+                <h1 className="font-bold hover:text-indigo-300">Exhibition</h1>
+              </Link>
+            </li> */}
             <li className="nav-item">
               <Link to="/work/2">
                 <h1 className="font-bold hover:text-indigo-300">Work</h1>
@@ -43,11 +48,6 @@ export default function Topbar() {
                 <h1 className="font-bold hover:text-indigo-300">Statement</h1>
               </Link>
             </li>
-            {/* <li className="nav-item">
-              <Link to="/exibition">
-                <h1 className="font-bold hover:text-indigo-300">Exibition</h1>
-              </Link>
-            </li> */}
             <li className="nav-item">
               <Link to="/about">
                 <h1 className="font-bold hover:text-indigo-300">About</h1>
