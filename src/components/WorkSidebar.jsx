@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 export default function WorkSidebar({ selectedContent }) {
   const [part, setPart] = useState("All");
 
-  let contents_upcoming = ["1.Solo Exhibition.Painting"];
-  let contents_2023 = ["2.Mirroring Effect.Project", "3.Spanning.Project"];
+  let contents_upcoming = [];
+  let contents_2023 = ["1.Swaying Intoversion.Painting", "2.Mirroring Effect.Project", "3.Spanning.Project"];
   let contents_2022 = [
     "4.FLOW.Painting",
     "5.Dialing.Project",
@@ -227,10 +227,10 @@ export default function WorkSidebar({ selectedContent }) {
             ))}
           </ul>
         </li>
-        <li className={"mt-5" + (contents_2014.length > 0 ? "" : " hidden")}>
-          <h5 className="mb-3 font-semibold text-slate-900">2014</h5>
+        <li className={"mt-5" + (contents_2016.length > 0 ? "" : " hidden")}>
+          <h5 className="mb-3 font-semibold text-slate-900">2016</h5>
           <ul className="space-y-2 border-l border-slate-100">
-            {contents_2014.map((content) => (
+            {contents_2016.map((content) => (
               <Link to={`/work/${content.split(".")[0]}`}>
                 <li
                   key={content.split(".")[0]}
@@ -246,10 +246,10 @@ export default function WorkSidebar({ selectedContent }) {
             ))}
           </ul>
         </li>
-        <li className={"mt-5" + (contents_2016.length > 0 ? "" : " hidden")}>
-          <h5 className="mb-3 font-semibold text-slate-900">2016</h5>
+        <li className={"mt-5" + (contents_2014.length > 0 ? "" : " hidden")}>
+          <h5 className="mb-3 font-semibold text-slate-900">2014</h5>
           <ul className="space-y-2 border-l border-slate-100">
-            {contents_2016.map((content) => (
+            {contents_2014.map((content) => (
               <Link to={`/work/${content.split(".")[0]}`}>
                 <li
                   key={content.split(".")[0]}
