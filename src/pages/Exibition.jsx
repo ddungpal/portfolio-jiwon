@@ -46,10 +46,35 @@ export default function Exibition() {
         {isLoading && <p>Loading...</p>}
         {error && <p>{error}</p>}
         <div>
-          <video className="mb-5" src={video1} autoPlay muted loop></video>
+          <video className="mb-10" src={video1} autoPlay muted loop></video>
         </div>
         <div>
-          <img className="" src={image1} alt="1.jpg" />
+          <p className="mb-10 mt-5 text-base font-bold">
+            최지원 개인전 {"<"}춤추는 내향성{">"}
+          </p>
+          <p className="text-sm">
+            플루리포텐트 아트스페이스 (서울 종로구 효자로 9길 30)
+          </p>
+          <p className="mb-10 text-sm">
+            2023년 7월 14-27일 1-6pm (월요일 휴관)
+          </p>
+          <img className="mb-10" src={image1} alt="1.jpg" />
+          <p className="text-sm line-clamp text-justify mb-10">
+            최지원은 서울에서 활동중인 시각예술가로, '순간의 인상'을 모티브로
+            작업한다. 주로 회화를 통해 쉽게 정의할 수 없는 감각의 행간을
+            탐구한다. 이번 전시에서 화면의 자율성, 미숙한 붓질, 연약한 색에
+            집중하며 회화를 통해 일상의 감각을 함축하여 이야기한다.
+          </p>
+          <p className="text-sm mb-10 underline">전시서문</p>
+          <p className="text-sm line-clamp text-justify mb-10">
+            최지원 작가의 세번째 개인전 {"<"}춤추는 내향성{">"}에서는
+            희미해지면서 명료해지는 회화들이 전시된다. 이전 작업에서 작가가
+            순간의 인상을 축으로 심리의 표현에 집중해왔었다면, 이번 전시에서는
+            작가를 둘러싼 환경의 모습들을 옮긴다. 작가는 살아있다는 감각을
+            불러일으키는 생경한 장면들을 지극히 일상적인 경험에서 발견한다. 오랜
+            친구를 우연히 만난 순간, 잠깐의 쉼의 여정, 가족과 함께한 시간들은
+            작품안에서 가장 편안한 방식으로 선명해진다.
+          </p>
         </div>
         <div>
           <img className="" src={image2} alt="2.jpg" />
