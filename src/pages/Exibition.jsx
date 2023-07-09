@@ -46,7 +46,7 @@ export default function Exibition() {
         {isLoading && <p>Loading...</p>}
         {error && <p>{error}</p>}
         <div>
-          <video className="mb-5" src={video1} autoPlay loop ></video>
+          <video className="mb-5" src={video1} autoPlay muted loop></video>
         </div>
         <div>
           <img className="" src={image1} alt="1.jpg" />
