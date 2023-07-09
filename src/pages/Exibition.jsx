@@ -54,7 +54,7 @@ export default function Exibition() {
             loop
             playsInline
           ></video> */}
-          <video className="mb-10" src={video1} autoPlay muted loop playsInline></video>
+          <video className="mb-10" src={video1} muted loop playsInline></video>
         </div>
         <div className="p-5">
           <p className="mb-10 mt-5 text-base font-bold">
