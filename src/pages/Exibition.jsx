@@ -21,7 +21,7 @@ export default function Exibition() {
     const video11Obj =
       productsOri &&
       productsOri.filter(
-        (product) => product.id === "eb031220-fedd-4334-91c6-36d89c9e9abd"
+        (product) => product.id === "ccaa25ce-297f-4746-bfb2-4627aaf1af61"
       );
     video1 = video11Obj[0].image;
     const image1Obj =
