@@ -4,6 +4,8 @@ import Topbar from "../components/Topbar";
 import WorkSidebar from "../components/WorkSidebar";
 import WorkDetail from "./WorkDetail";
 import workBtn from "../imgs/work/workbtn.png";
+// import workBtn from "../imgs/work/workbtn.mp4";
+
 
 export default function Work() {
   const currentContent = useParams();
@@ -37,6 +39,8 @@ export default function Work() {
               onClick={() => setSidebarOpen(!sidebarOpen)}
             >
               <img src={workBtn} alt="metamask" className="h-10 w-12" />
+              {/* <video src={workBtn} alt="metamask" className="h-10 w-12" autoPlay muted loop>
+              </video> */}
             </button>
             <br /><br /><br />
             <div>
