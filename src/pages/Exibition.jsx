@@ -45,10 +45,10 @@ export default function Exibition() {
       <div className="container mx-auto flex-column items-center justify-between mt-10">
         {isLoading && <p>Loading...</p>}
         {error && <p>{error}</p>}
-        <div>
+        <div className="p-5">
           <video className="mb-10" src={video1} autoPlay muted loop></video>
         </div>
-        <div>
+        <div className="p-5">
           <p className="mb-10 mt-5 text-base font-bold">
             최지원 개인전 {"<"}춤추는 내향성{">"}
           </p>
@@ -76,7 +76,7 @@ export default function Exibition() {
             작품안에서 가장 편안한 방식으로 선명해진다.
           </p>
         </div>
-        <div>
+        <div className="p-5">
           <img className="" src={image2} alt="2.jpg" />
         </div>
       </div>
