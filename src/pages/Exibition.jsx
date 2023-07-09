@@ -2,6 +2,7 @@ import React from "react";
 import Topbar from "../components/Topbar";
 import { useQuery } from "@tanstack/react-query";
 import { getProducts1 } from "../api/firebase";
+import { getProducts3 } from "../api/firebase";
 
 export default function Exibition() {
   const {
@@ -10,19 +11,29 @@ export default function Exibition() {
     data: products1,
   } = useQuery(["products1"], getProducts1);
 
+  const { data: products3 } = useQuery(["products3"], getProducts3);
+
   let video1 = "";
+  let video2 = "";
   let image1 = "";
   let image2 = "";
 
   if (products1) {
     const _ = require("lodash");
     const productsOri = _.cloneDeep(products1);
+    const productsOri2 = _.cloneDeep(products3);
     const video11Obj =
       productsOri &&
       productsOri.filter(
         (product) => product.id === "fc1ce811-aca5-4f87-93d5-a7a8e1231928"
       );
     video1 = video11Obj[0].image;
+    const video12Obj =
+      productsOri2 &&
+      productsOri2.filter(
+        (products3) => products3.id === "5373edc1-4e55-4faa-b5c4-719287f616c1"
+      );
+    video2 = video12Obj[0].image;
     const image1Obj =
       productsOri &&
       productsOri.filter(
@@ -46,7 +57,15 @@ export default function Exibition() {
         {isLoading && <p>Loading...</p>}
         {error && <p>{error}</p>}
         <div className="p-5">
-          <video className="mb-10" src={video1} autoPlay muted loop playsInline></video>
+          <video
+            className="mb-10"
+            src={video1}
+            autoPlay
+            muted
+            loop
+            playsInline
+          ></video>
+          <video className="mb-5" src={video2} controls autoPlay></video>
         </div>
         <div className="p-5">
           <p className="mb-10 mt-5 text-base font-bold">
