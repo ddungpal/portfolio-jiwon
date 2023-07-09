@@ -42,11 +42,11 @@ export default function Exibition() {
   return (
     <>
       <Topbar />
-      <div className="container mx-auto flex items-center justify-between mt-10">
+      <div className="container mx-auto flex-column items-center justify-between mt-10">
         {isLoading && <p>Loading...</p>}
         {error && <p>{error}</p>}
         <div>
-          <video className="mb-5" src={video1} controls autoPlay></video>
+          <video className="mb-5" src={video1} autoPlay loop ></video>
         </div>
         <div>
           <img className="" src={image1} alt="1.jpg" />
