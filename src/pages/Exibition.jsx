@@ -50,6 +50,7 @@ export default function Exibition() {
           <video
             className="mb-10"
             src={video1}
+            poster={image1}
             autoPlay
             muted
             loop
