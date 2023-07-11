@@ -48,7 +48,7 @@ export default function Exibition() {
         {error && <p>{error}</p>}
         <div className="p-5">
           <video
-            className="mb-10"
+            className="mb-10 w-full"
             src={video1}
             poster={image1}
             autoPlay
