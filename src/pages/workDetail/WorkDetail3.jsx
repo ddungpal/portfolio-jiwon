@@ -28,7 +28,7 @@ export default function WorkDetail3() {
     <>
       {isLoading && <p>Loading...</p>}
       {error && <p>{error}</p>}
-      <video className="mb-5" src={video1} controls autoPlay></video>
+      <video className="mb-5" src={video1} controls autoPlay playsInline></video>
     </>
   );
 }

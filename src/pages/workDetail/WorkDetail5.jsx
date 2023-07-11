@@ -50,7 +50,7 @@ export default function WorkDetail5() {
     <>
       {isLoading && <p>Loading...</p>}
       {error && <p>{error}</p>}
-      <video className="mb-5" src={video1} controls autoPlay></video>
+      <video className="mb-5" src={video1} controls autoPlay playsInline></video>
       {/* <img
         className="mb-5"
         src={image1}

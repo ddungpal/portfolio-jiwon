@@ -43,7 +43,7 @@ export default function WorkDetail8() {
     <>
       {isLoading && <p>Loading...</p>}
       {error && <p>{error}</p>}
-      <video className="mb-5" src={video1} controls autoPlay></video>
+      <video className="mb-5" src={video1} controls autoPlay playsInline></video>
       {/* <video className="mb-5" src={video2} controls></video>
       <video className="mb-5" src={video3} controls></video> */}
     </>
