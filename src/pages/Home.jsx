@@ -45,7 +45,7 @@ export default function Home() {
 
   return (
     <>
-      {isLoading && <img src={image0} alt="1.jpg" />}
+      {isLoading && <p></p>}
       {error && <p>{error}</p>}
       <div
         className="h-screen"
