@@ -1,5 +1,5 @@
 #home {
-  background: url("./imgs/home/homeBackground.jpg") no-repeat;
+  /* background: url("./imgs/home/homeBackground.jpg") no-repeat; */
   @apply bg-cover bg-center;
 }
 

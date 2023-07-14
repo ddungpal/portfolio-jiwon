@@ -15,11 +15,20 @@ const database = getDatabase(app);
 
 export async function addNewProduct(product, image) {
   const id = uuid();
-  return set(ref(database, `products/1/${id}`), {
+  return set(ref(database, `home/${id}`), {
     ...product,
     id,
     projectNo: parseInt(product.projectNo),
     image,
+  });
+}
+
+export async function getHome() {
+  return get(ref(database, "home")).then((snapshot) => {
+    if (snapshot.exists()) {
+      return Object.values(snapshot.val());
+    }
+    return [];
   });
 }
 
