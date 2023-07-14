@@ -6,6 +6,7 @@ import { getHome } from "../api/firebase";
 export default function Home() {
   const { isLoading, error, data: homeImg } = useQuery(["homeImg"], getHome);
 
+  let image0 = "";
   let image1 = "";
   // let image2 = "";
   // let image3 = "";
@@ -14,6 +15,12 @@ export default function Home() {
   if (homeImg) {
     const _ = require("lodash");
     const productsOri = _.cloneDeep(homeImg);
+    const image0Obj =
+    productsOri &&
+    productsOri.filter(
+      (img) => img.id === "33f962b7-6ac4-48a0-8fa8-6430512e9ca0"
+    );
+  image0 = image0Obj[0].image;
     const image1Obj =
       productsOri &&
       productsOri.filter(
@@ -38,7 +45,7 @@ export default function Home() {
 
   return (
     <>
-      {isLoading && <p>Loading...</p>}
+      {isLoading && <img src={image0} alt="1.jpg" />}
       {error && <p>{error}</p>}
       <div
         className="h-screen"
