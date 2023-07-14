@@ -7,8 +7,8 @@ export default function Home() {
   const { isLoading, error, data: homeImg } = useQuery(["homeImg"], getHome);
 
   let image1 = "";
-  let image2 = "";
-  let image3 = "";
+  // let image2 = "";
+  // let image3 = "";
 
   console.log(homeImg);
   if (homeImg) {
@@ -20,18 +20,18 @@ export default function Home() {
         (img) => img.id === "bf8fa6eb-8f69-440c-a2d7-7b4883c6fbed"
       );
     image1 = image1Obj[0].image;
-    const image2Obj =
-      productsOri &&
-      productsOri.filter(
-        (img) => img.id === "873a07cc-9dfa-458c-9819-516e44293f01"
-      );
-    image2 = image2Obj[0].image;
-    const image3Obj =
-      productsOri &&
-      productsOri.filter(
-        (img) => img.id === "33f962b7-6ac4-48a0-8fa8-6430512e9ca0"
-      );
-    image3 = image3Obj[0].image;
+    // const image2Obj =
+    //   productsOri &&
+    //   productsOri.filter(
+    //     (img) => img.id === "873a07cc-9dfa-458c-9819-516e44293f01"
+    //   );
+    // image2 = image2Obj[0].image;
+    // const image3Obj =
+    //   productsOri &&
+    //   productsOri.filter(
+    //     (img) => img.id === "33f962b7-6ac4-48a0-8fa8-6430512e9ca0"
+    //   );
+    // image3 = image3Obj[0].image;
   } else {
     console.log("데이터를 받아오지 못했습니다.");
   }
@@ -52,7 +52,7 @@ export default function Home() {
       >
         <TopbarBg />
       </div>
-      <div
+      {/* <div
         className="h-screen"
         style={{
           backgroundImage: `url(${image2})`,
@@ -71,7 +71,7 @@ export default function Home() {
           backgroundSize: "cover",
           backgroundAttachment: "fixed",
         }}
-      ></div>
+      ></div> */}
     </>
   );
 }
