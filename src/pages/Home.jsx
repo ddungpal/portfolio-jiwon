@@ -15,7 +15,7 @@ export default function Home() {
     const image1Obj =
       productsOri &&
       productsOri.filter(
-        (img) => img.id === "82a220f0-6112-4236-9518-4c34b0bf39b0"
+        (img) => img.id === "95c394f0-f9ec-4207-980f-9d16ba724af9"
       );
     image1 = image1Obj[0].image;
   } else {
