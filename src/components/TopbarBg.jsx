@@ -41,7 +41,7 @@ export default function TopbarBg() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/work/2">
+              <Link to="/work/1">
                 <h1 className="font-bold hover:text-indigo-300">Work</h1>
               </Link>
             </li>
