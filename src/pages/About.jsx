@@ -97,14 +97,14 @@ export default function About() {
                 <>
                   <p className="mb-2 underline font-semibold">CV</p>
                   <p>웹사이트: www.choijiwon.kr</p>
-                  <p>인스타그램: @jiwonchoi_artwork</p>
+                  <p>인스타그램: @jiwonchoi_painting</p>
                   <p>이메일: jiwonchoistudio@gmail.com</p>
                 </>
               ) : (
                 <>
                   <p className="mb-2 underline font-semibold">CV</p>
                   <p>Webpage: www.choijiwon.kr</p>
-                  <p>Instagram: @jiwonchoi_artwork</p>
+                  <p>Instagram: @jiwonchoi_painting</p>
                   <p>Email: jiwonchoistudio@gmail.com</p>
                 </>
               )}

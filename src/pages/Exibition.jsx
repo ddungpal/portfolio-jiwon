@@ -117,7 +117,7 @@ export default function Exibition() {
     const image11Obj =
       productsOri &&
       productsOri.filter(
-        (product) => product.id === "b5c6ba19-9756-4a1d-a2db-ebc0885c319e"
+        (product) => product.id === "54190d15-6613-452c-b737-d20ab0e7fa9a"
       );
     image11 = image11Obj[0].image;
     const image12Obj =
@@ -259,11 +259,11 @@ export default function Exibition() {
         <img className="p-5 mb-10" src={image11} alt="11.jpg" />
         <img className="p-5 mb-10" src={image12} alt="12.jpg" />
         <img className="p-5 mb-10" src={image12_1} alt="12_1.jpg" />
-        <img className="p-5 mb-10" src={image13} alt="13.jpg" />
         <img className="p-5 mb-10" src={image14} alt="14.jpg" />
         <img className="p-5 mb-10" src={image17} alt="17.jpg" />
         <img className="p-5 mb-10" src={image18} alt="18.jpg" />
         <img className="p-5 mb-10" src={image19} alt="19.jpg" />
+        <img className="p-5 mb-10" src={image13} alt="13.jpg" />
       </div>
     </>
   );

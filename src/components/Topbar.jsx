@@ -64,7 +64,7 @@ export default function Topbar() {
               </button>
             </li> */}
             <li className="nav-item">
-              <Link to="https://www.instagram.com/ppingagain/" target="_blank">
+              <Link to="https://www.instagram.com/jiwonchoi_painting/" target="_blank">
                 <h1 className="font-bold text-2xl hover:text-indigo-300 mt-1.5">
                   <BsInstagram />
                 </h1>
