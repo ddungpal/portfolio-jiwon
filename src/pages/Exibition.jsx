@@ -12,8 +12,26 @@ export default function Exibition() {
 
   console.log(products1);
   let video1 = "";
-  // let image1 = "";
-  // let image2 = "";
+  let image1 = "";
+  let image2 = "";
+  let image2_1 = "";
+  let image2_2 = "";
+  let image3 = "";
+  let image4 = "";
+  let image5 = "";
+  let image6 = "";
+  let image7 = "";
+  let image8 = "";
+  let image9 = "";
+  let image10 = "";
+  let image11 = "";
+  let image12 = "";
+  let image12_1 = "";
+  let image13 = "";
+  let image14 = "";
+  let image17 = "";
+  let image18 = "";
+  let image19 = "";
 
   if (products1) {
     const _ = require("lodash");
@@ -24,18 +42,126 @@ export default function Exibition() {
         (product) => product.id === "3ece5ab4-96fa-4941-8fbf-68c3ea22ae98"
       );
     video1 = video11Obj[0].image;
-    // const image1Obj =
-    //   productsOri &&
-    //   productsOri.filter(
-    //     (product) => product.id === "7ef8932e-d791-4ef8-9039-22acc5b85b0c"
-    //   );
-    // image1 = image1Obj[0].image;
-    // const image2Obj =
-    //   productsOri &&
-    //   productsOri.filter(
-    //     (product) => product.id === "0023985e-72f6-4f48-950f-96000f83b6fd"
-    //   );
-    // image2 = image2Obj[0].image;
+    const image1Obj =
+      productsOri &&
+      productsOri.filter(
+        (product) => product.id === "aaf5ea10-6f2d-4e82-a2d0-5a8a0330eab1"
+      );
+    image1 = image1Obj[0].image;
+    const image2Obj =
+      productsOri &&
+      productsOri.filter(
+        (product) => product.id === "5177b4a2-ba38-4e5f-9ed4-7e1e9e6eb0e8"
+      );
+    image2 = image2Obj[0].image;
+    const image2_1Obj =
+      productsOri &&
+      productsOri.filter(
+        (product) => product.id === "96f6b2a9-d0a4-4cdf-af95-615e7cd4e689"
+      );
+    image2_1 = image2_1Obj[0].image;
+    const image2_2Obj =
+      productsOri &&
+      productsOri.filter(
+        (product) => product.id === "2ff1e72d-08d8-44c5-afd5-b43551de4ff6"
+      );
+    image2_2 = image2_2Obj[0].image;
+    const image3Obj =
+      productsOri &&
+      productsOri.filter(
+        (product) => product.id === "81f37c1a-0470-47f7-99be-738a1bed118d"
+      );
+    image3 = image3Obj[0].image;
+    const image4Obj =
+      productsOri &&
+      productsOri.filter(
+        (product) => product.id === "2e49befd-a185-44ee-b14a-913f568be691"
+      );
+    image4 = image4Obj[0].image;
+    const image5Obj =
+      productsOri &&
+      productsOri.filter(
+        (product) => product.id === "b65c7a27-9a25-4d19-9c5f-a94fa9cdb252"
+      );
+    image5 = image5Obj[0].image;
+    const image6Obj =
+      productsOri &&
+      productsOri.filter(
+        (product) => product.id === "036a6f2f-0692-4e79-a59c-ba7d87c26380"
+      );
+    image6 = image6Obj[0].image;
+    const image7Obj =
+      productsOri &&
+      productsOri.filter(
+        (product) => product.id === "362092d5-1766-4790-ab43-9fc36cd86e86"
+      );
+    image7 = image7Obj[0].image;
+    const image8Obj =
+      productsOri &&
+      productsOri.filter(
+        (product) => product.id === "5684b0f9-f548-4e69-a9c5-230f8f8d88f6"
+      );
+    image8 = image8Obj[0].image;
+    const image9Obj =
+      productsOri &&
+      productsOri.filter(
+        (product) => product.id === "8879ba86-1d60-4db9-b486-e91ba52e07e2"
+      );
+    image9 = image9Obj[0].image;
+    const image10Obj =
+      productsOri &&
+      productsOri.filter(
+        (product) => product.id === "202d3374-731a-42b9-8852-e4f111127e22"
+      );
+    image10 = image10Obj[0].image;
+    const image11Obj =
+      productsOri &&
+      productsOri.filter(
+        (product) => product.id === "b5c6ba19-9756-4a1d-a2db-ebc0885c319e"
+      );
+    image11 = image11Obj[0].image;
+    const image12Obj =
+      productsOri &&
+      productsOri.filter(
+        (product) => product.id === "46fdc529-46be-4d1a-836d-90a97b457078"
+      );
+    image12 = image12Obj[0].image;
+    const image12_1Obj =
+      productsOri &&
+      productsOri.filter(
+        (product) => product.id === "4f258000-a8bf-4e0d-95fd-8c0d455b4d10"
+      );
+    image12_1 = image12_1Obj[0].image;
+    const image13Obj =
+      productsOri &&
+      productsOri.filter(
+        (product) => product.id === "c9e8d6a4-8a6a-468f-ba33-291d51df4431"
+      );
+    image13 = image13Obj[0].image;
+    const image14Obj =
+      productsOri &&
+      productsOri.filter(
+        (product) => product.id === "88afc8c2-d7f8-4aba-89f0-2dde338b1f0a"
+      );
+    image14 = image14Obj[0].image;
+    const image17Obj =
+      productsOri &&
+      productsOri.filter(
+        (product) => product.id === "30287aec-ab27-49d2-8601-f5afb38ba12b"
+      );
+    image17 = image17Obj[0].image;
+    const image18Obj =
+      productsOri &&
+      productsOri.filter(
+        (product) => product.id === "3951b88c-33a8-40f8-955a-d070f9ed6be8"
+      );
+    image18 = image18Obj[0].image;
+    const image19Obj =
+      productsOri &&
+      productsOri.filter(
+        (product) => product.id === "8d299097-3c40-4f31-b6b9-b3f57a33297d"
+      );
+    image19 = image19Obj[0].image;
   } else {
     console.log("데이터를 받아오지 못했습니다.");
   }
@@ -118,6 +244,26 @@ export default function Exibition() {
             </p>
           </div>
         </div> */}
+        <img className="p-5 mb-10" src={image1} alt="1.jpg" />
+        <img className="p-5 mb-10" src={image2} alt="2.jpg" />
+        <img className="p-5 mb-10" src={image2_1} alt="2_1.jpg" />
+        <img className="p-5 mb-10" src={image2_2} alt="2_2.jpg" />
+        <img className="p-5 mb-10" src={image3} alt="3.jpg" />
+        <img className="p-5 mb-10" src={image4} alt="4.jpg" />
+        <img className="p-5 mb-10" src={image5} alt="5.jpg" />
+        <img className="p-5 mb-10" src={image6} alt="6.jpg" />
+        <img className="p-5 mb-10" src={image7} alt="7.jpg" />
+        <img className="p-5 mb-10" src={image8} alt="8.jpg" />
+        <img className="p-5 mb-10" src={image9} alt="9.jpg" />
+        <img className="p-5 mb-10" src={image10} alt="10.jpg" />
+        <img className="p-5 mb-10" src={image11} alt="11.jpg" />
+        <img className="p-5 mb-10" src={image12} alt="12.jpg" />
+        <img className="p-5 mb-10" src={image12_1} alt="12_1.jpg" />
+        <img className="p-5 mb-10" src={image13} alt="13.jpg" />
+        <img className="p-5 mb-10" src={image14} alt="14.jpg" />
+        <img className="p-5 mb-10" src={image17} alt="17.jpg" />
+        <img className="p-5 mb-10" src={image18} alt="18.jpg" />
+        <img className="p-5 mb-10" src={image19} alt="19.jpg" />
       </div>
     </>
   );
