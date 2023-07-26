@@ -14,7 +14,7 @@ export default function WorkDetail1() {
   let image3 = "";
   let image4 = "";
   let image5 = "";
-  let image6 = "";
+  // let image6 = "";
   let image7 = "";
   let image8 = "";
   let image9 = "";
@@ -56,12 +56,12 @@ export default function WorkDetail1() {
         (product) => product.id === "73ae8728-65dd-4b84-9916-7e5cf10127d6"
       );
     image5 = image5Obj[0].image;
-    const image6Obj =
-      productsOri &&
-      productsOri.filter(
-        (product) => product.id === "0c7756be-4aa2-4c85-82a5-d8a61a148973"
-      );
-    image6 = image6Obj[0].image;
+    // const image6Obj =
+    //   productsOri &&
+    //   productsOri.filter(
+    //     (product) => product.id === "0c7756be-4aa2-4c85-82a5-d8a61a148973"
+    //   );
+    // image6 = image6Obj[0].image;
     const image7Obj =
       productsOri &&
       productsOri.filter(
@@ -110,123 +110,123 @@ export default function WorkDetail1() {
         <img
           className="project__img"
           src={image1}
-          alt="1.2023, ‘춤추는 내향성’, 163x262cm, 장지에 피그먼트"
+          alt="2023, ‘춤추는 내향성’, 163x262cm, 장지에 피그먼트"
         />
         <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          1.2023, ‘춤추는 내향성’, 163x262cm, 장지에 피그먼트
+          2023, ‘춤추는 내향성’, 163x262cm, 장지에 피그먼트
         </span>
       </div>
       <div className="mb-5 project">
         <img
           className="project__img"
           src={image2}
-          alt="2.2023, ‘A Camper’, 151x100cm, pigment on Jangi"
+          alt="2023, ‘A Camper’, 151x100cm, pigment on Jangi"
         />
         <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          2.2023, ‘A Camper’, 151x100cm, pigment on Jangi
+          2023, ‘A Camper’, 151x100cm, pigment on Jangi
         </span>
       </div>
       <div className="mb-5 project">
         <img
           className="project__img"
           src={image3}
-          alt="3.2023, ‘성냥갑’, 31x42.5cm, 장지에 피그먼트"
+          alt="2023, ‘성냥갑’, 31x42.5cm, 장지에 피그먼트"
         />
         <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          3.2023, ‘성냥갑’, 31x42.5cm, 장지에 피그먼트
+          2023, ‘성냥갑’, 31x42.5cm, 장지에 피그먼트
         </span>
       </div>
       <div className="mb-5 project">
         <img
           className="project__img"
           src={image4}
-          alt="4.2023, ‘Woodnotes’, 24x33cm, pigment on Jangi"
+          alt="2023, ‘Woodnotes’, 24x33cm, pigment on Jangi"
         />
         <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          4.2023, ‘Woodnotes’, 24x33cm, pigment on Jangi
+          2023, ‘Woodnotes’, 24x33cm, pigment on Jangi
         </span>
       </div>
       <div className="mb-5 project">
         <img
           className="project__img"
           src={image5}
-          alt="5.2023, ‘선율’, 18x26cm, 장지에 피그먼트"
+          alt="2023, ‘선율’, 18x26cm, 장지에 피그먼트"
         />
         <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          5.2023, ‘선율’, 18x26cm, 장지에 피그먼트
+          2023, ‘선율’, 18x26cm, 장지에 피그먼트
         </span>
       </div>
-      <div className="mb-5 project">
+      {/* <div className="mb-5 project">
         <img
           className="project__img"
           src={image6}
-          alt="6.2023, ‘가벼운 산책’, 42.5x31cm, 장지에 피그먼트"
+          alt="2023, ‘가벼운 산책’, 42.5x31cm, 장지에 피그먼트"
         />
         <span className="project__description_vertical text-[8px] lg:text-base lg:h-1/20">
-          6.2023, ‘가벼운 산책’, 42.5x31cm, 장지에 피그먼트
+          2023, ‘가벼운 산책’, 42.5x31cm, 장지에 피그먼트
         </span>
-      </div>
+      </div> */}
       <div className="mb-5 project">
         <img
           className="project__img"
           src={image7}
-          alt="7.2023, ‘여름에 밤이슬을 막는 덮개’, 53x34cm, 장지에 피그먼트"
+          alt="2023, ‘여름에 밤이슬을 막는 덮개’, 53x34cm, 장지에 피그먼트"
         />
         <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          7.2023, ‘여름에 밤이슬을 막는 덮개’, 53x34cm, 장지에 피그먼트
+          2023, ‘여름에 밤이슬을 막는 덮개’, 53x34cm, 장지에 피그먼트
         </span>
       </div>
       <div className="mb-5 project">
         <img
           className="project__img"
           src={image8}
-          alt="8.2023, ‘나른한 오후’, 34x53cm, 장지에 피그먼트"
+          alt="2023, ‘나른한 오후’, 34x53cm, 장지에 피그먼트"
         />
         <span className="project__description_vertical text-[8px] lg:text-base lg:h-1/20">
-          8.2023, ‘나른한 오후’, 34x53cm, 장지에 피그먼트
+          2023, ‘나른한 오후’, 34x53cm, 장지에 피그먼트
         </span>
       </div>
       <div className="mb-5 project">
         <img
           className="project__img"
           src={image9}
-          alt="9.2023, ‘A Soft Lightpurple’, 53x45.5cm, pigment on Jangi"
+          alt="2023, ‘A Soft Lightpurple’, 53x45.5cm, pigment on Jangi"
         />
         <span className="project__description_vertical text-[8px] lg:text-base lg:h-1/20">
-          9.2023, ‘A Soft Lightpurple’, 53x45.5cm, pigment on Jangi
+          2023, ‘A Soft Lightpurple’, 53x45.5cm, pigment on Jangi
         </span>
       </div>
       <div className="mb-5 project">
         <img
           className="project__img"
           src={image10}
-          alt="10.2023, ‘마중’, 34x53cm, 장지에 피그먼트"
+          alt="2023, ‘마중’, 34x53cm, 장지에 피그먼트"
         />
         <span className="project__description_vertical text-[8px] lg:text-base lg:h-1/20">
-          10.2023, ‘마중’, 34x53cm, 장지에 피그먼트
+          2023, ‘마중’, 34x53cm, 장지에 피그먼트
         </span>
       </div>
       <div className="mb-5 project">
         <img
           className="project__img"
           src={image11}
-          alt="11.2023, ‘A Co-worker’, 92.3x60cm, pigment on Jangi"
+          alt="2023, ‘A Co-worker’, 92.3x60cm, pigment on Jangi"
         />
         <span className="project__description_vertical text-[8px] lg:text-base lg:h-1/20">
-          11.2023, ‘A Co-worker’, 92.3x60cm, pigment on Jangi
+          2023, ‘A Co-worker’, 92.3x60cm, pigment on Jangi
         </span>
       </div>
       <div className="mb-5 project">
         <img
           className="project__img"
           src={image12}
-          alt="12.2023, ‘A Co-worker’, 53x45.5cm, pigment on Jangi"
+          alt="2023, ‘A Co-worker’, 53x45.5cm, pigment on Jangi"
         />
         <span className="project__description_vertical text-[8px] lg:text-base lg:h-1/20">
-          12.2023, ‘A Co-worker’, 53x45.5cm, pigment on Jangi
+          2023, ‘A Co-worker’, 53x45.5cm, pigment on Jangi
         </span>
       </div>
-      <p className="mb-5 italic text-slate-400 text-right text-sm">사진: @heoyu_photograph</p>
+      {/* <p className="mb-5 italic text-slate-400 text-right text-sm">사진: @heoyu_photograph</p> */}
     </>
   );
 }
