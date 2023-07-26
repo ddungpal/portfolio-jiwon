@@ -226,6 +226,7 @@ export default function WorkDetail1() {
           12.2023, ‘A Co-worker’, 53x45.5cm, pigment on Jangi
         </span>
       </div>
+      <p className="mb-5 italic text-slate-400 text-right text-sm">사진: @heoyu_photograph</p>
     </>
   );
 }

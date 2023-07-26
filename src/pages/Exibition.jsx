@@ -263,7 +263,8 @@ export default function Exibition() {
         <img className="p-5 mb-10" src={image17} alt="17.jpg" />
         <img className="p-5 mb-10" src={image18} alt="18.jpg" />
         <img className="p-5 mb-10" src={image19} alt="19.jpg" />
-        <img className="p-5 mb-10" src={image13} alt="13.jpg" />
+        <img className="p-5" src={image13} alt="13.jpg" />
+        <p className="p-5 mb-5 italic text-slate-400 text-right text-sm">사진: @heoyu_photograph</p>
       </div>
     </>
   );
