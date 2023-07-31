@@ -43,11 +43,11 @@ export default function Topbar() {
                 <h1 className="font-bold hover:text-indigo-300">Work</h1>
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link to="/statement">
                 <h1 className="font-bold hover:text-indigo-300">Statement</h1>
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link to="/about">
                 <h1 className="font-bold hover:text-indigo-300">About</h1>
