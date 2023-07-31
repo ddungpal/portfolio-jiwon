@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Avatar from "../components/Avatar";
+// import Avatar from "../components/Avatar";
 import Topbar from "../components/Topbar";
-import profileimg from "../imgs/about/profile.png";
+// import profileimg from "../imgs/about/profile.png";
 import { useLanguageMode } from "../context/LanguageContext";
 import singleBtn from "../imgs/about/single.png";
 import teamBtn from "../imgs/about/team.png";
@@ -64,7 +64,7 @@ export default function About() {
             CV
           </button>
         </div>
-        <div className="container mx-auto px-2 lg:px-1">
+        <div className="container mx-auto px-5 lg:px-1">
           <div className="mt-10">
             <p className="mb-3 mt-5 text-xl font-bold">Inspiration</p>
             <p className="line-clamp text-justify">
@@ -203,9 +203,9 @@ export default function About() {
         </div>
         {part === "Single" ? (
           <div>
-            <div className="mt-5 container mx-auto lg:flex lg:flex-row-reverse">
+            <div className="mt-5 container mx-auto">
               <div className="lg:w-1/4">
-                <Avatar image={profileimg} />
+                {/* <Avatar image={profileimg} /> */}
               </div>
               <div className="lg:w-3/4">
                 <hr className="mt-5" />
@@ -1330,7 +1330,7 @@ export default function About() {
             CV
           </button>
         </div>
-        <div className="container mx-auto px-2 lg:px-1">
+        <div className="container mx-auto px-5 lg:px-1">
           <div className="mt-10">
             <p className="mb-3 mt-5 font-bold text-xl">Inner Alignment</p>
             <p className="line-clamp text-justify">
