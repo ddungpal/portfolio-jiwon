@@ -17,9 +17,18 @@ import WorkDetail6 from "./workDetail/WorkDetail6";
 import WorkDetail7 from "./workDetail/WorkDetail7";
 import WorkDetail8 from "./workDetail/WorkDetail8";
 import WorkDetail9 from "./workDetail/WorkDetail9";
+import WorkDetail0 from "./workDetail/WorkDetail0";
 
 export default function WorkDetail({ selectedContent }) {
   switch (selectedContent) {
+    case "0":
+      return (
+        <>
+          <div>
+            <WorkDetail0 />
+          </div>
+        </>
+      );
     case "1":
       return (
         <>

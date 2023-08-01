@@ -5,7 +5,7 @@ export default function WorkSidebar({ selectedContent }) {
   const [part, setPart] = useState("All");
 
   let contents_upcoming = [];
-  let contents_2023 = ["1.Swaying Intoversion.Painting", "2.Mirroring Effect.Project", "3.Spanning.Project"];
+  let contents_2023 = ["0.Yellow Forest Project.Painting", "1.Swaying Intoversion.Painting", "2.Mirroring Effect.Project", "3.Spanning.Project"];
   let contents_2022 = [
     "4.FLOW.Painting",
     "5.Dialing.Project",
