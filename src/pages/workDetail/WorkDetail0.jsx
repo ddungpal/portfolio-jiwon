@@ -38,16 +38,6 @@ export default function WorkDetail0() {
       <div className="container mx-auto px-5 lg:px-1">
         <div className="mt-5">
           <p className="lg:w-3/5 lg:mx-auto mb-3 text-xl font-bold">Yellow Forest</p>
-          <div className="lg:w-3/5 lg:mx-auto">
-            <img
-              className="project__img mb-2"
-              src={image1}
-              alt="Yellow Forest still cut"
-            />
-          </div>
-          <p className="text-gray-400 text-center mb-5">
-            “Yellow Forest” still cut
-          </p>
           <video
             className="mb-5 mx-auto"
             src={video1}
@@ -57,6 +47,16 @@ export default function WorkDetail0() {
           ></video>
           <p className="text-gray-400 text-center mb-10">
             “Yellow Forest” teaser
+          </p>
+          <div className="lg:w-3/5 lg:mx-auto">
+            <img
+              className="project__img mb-2"
+              src={image1}
+              alt="Yellow Forest still cut"
+            />
+          </div>
+          <p className="text-gray-400 text-center mb-5">
+            “Yellow Forest” still cut
           </p>
           <div className="lg:w-3/5 lg:mx-auto mb-10">
             <p className="line-clamp text-justify">
