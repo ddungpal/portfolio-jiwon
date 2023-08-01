@@ -37,8 +37,8 @@ export default function WorkDetail0() {
       {error && <p>{error}</p>}
       <div className="container mx-auto px-5 lg:px-1">
         <div className="mt-5">
-          <p className="w-3/5 mx-auto mb-3 text-xl font-bold">Yellow Forest</p>
-          <div className="w-3/5 mx-auto">
+          <p className="lg:w-3/5 lg:mx-auto mb-3 text-xl font-bold">Yellow Forest</p>
+          <div className="lg:w-3/5 lg:mx-auto">
             <img
               className="project__img mb-2"
               src={image1}
@@ -58,7 +58,7 @@ export default function WorkDetail0() {
           <p className="text-gray-400 text-center mb-10">
             “Yellow Forest” teaser
           </p>
-          <div className="w-3/5 mx-auto mb-10">
+          <div className="lg:w-3/5 lg:mx-auto mb-10">
             <p className="line-clamp text-justify">
               <span className="font-bold mr-2">Choi Ji Won</span>
               <span>
