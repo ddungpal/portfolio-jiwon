@@ -1,103 +1,47 @@
 import React from "react";
 import { useQuery } from "@tanstack/react-query";
-import { getProducts18 } from "../../api/firebase";
+import { getProducts21 } from "../../api/firebase";
 
-export default function WorkDetail18() {
+export default function WorkDetail21() {
   const {
     isLoading,
     error,
-    data: products18,
-  } = useQuery(["products18"], getProducts18);
+    data: products21,
+  } = useQuery(["products21"], getProducts21);
 
-  console.log(products18);
+  console.log(products21);
   let image1 = "";
   let image2 = "";
   let image3 = "";
   let image4 = "";
-  let image4_2 = "";
-  let image5 = "";
-  // let image5_2 = "";
-  let image6 = "";
-  // let image7 = "";
-  let image8 = "";
-  let image8_2 = "";
-  let image9 = "";
 
-  if (products18) {
+  if (products21) {
     const _ = require("lodash");
-    const productsOri = _.cloneDeep(products18);
+    const productsOri = _.cloneDeep(products21);
     const image1Obj =
       productsOri &&
       productsOri.filter(
-        (product) => product.id === "51eb5d2d-47e4-4bd8-93ba-1c2dcbfbb42b"
+        (product) => product.id === "4cf92aa3-52fe-4f29-af27-d83e31c8d613"
       );
     image1 = image1Obj[0].image;
     const image2Obj =
       productsOri &&
       productsOri.filter(
-        (product) => product.id === "b500a229-a223-4aeb-aac9-00796f06b970"
+        (product) => product.id === "2ebd600a-2c9d-4cc4-8d9e-cb9a638e84dc"
       );
     image2 = image2Obj[0].image;
     const image3Obj =
       productsOri &&
       productsOri.filter(
-        (product) => product.id === "7cf61f09-1ec8-4bb0-a292-d1b520904a5b"
+        (product) => product.id === "2577b5c6-f6ef-4075-9c81-5b758a459a31"
       );
     image3 = image3Obj[0].image;
     const image4Obj =
       productsOri &&
       productsOri.filter(
-        (product) => product.id === "a36a1fa0-083f-42d3-be35-8065c653de2b"
+        (product) => product.id === "7a287a38-ed81-4e3b-b80d-90ba9d166bdb"
       );
     image4 = image4Obj[0].image;
-    const image4_2Obj =
-      productsOri &&
-      productsOri.filter(
-        (product) => product.id === "9e651228-9af0-46d2-8098-771bef9dd63d"
-      );
-    image4_2 = image4_2Obj[0].image;
-    const image5Obj =
-      productsOri &&
-      productsOri.filter(
-        (product) => product.id === "6234d3f1-a4b5-4d08-b160-d2170058b524"
-      );
-    image5 = image5Obj[0].image;
-    // const image5_2Obj =
-    //   productsOri &&
-    //   productsOri.filter(
-    //     (product) => product.id === "8d6c449f-3e86-4d3d-bb5d-47250ede8ce1"
-    //   );
-    // image5_2 = image5_2Obj[0].image;
-    const image6Obj =
-      productsOri &&
-      productsOri.filter(
-        (product) => product.id === "1270d7f8-30d1-4cdd-91ca-0c0f3c17904f"
-      );
-    image6 = image6Obj[0].image;
-    // const image7Obj =
-    //   productsOri &&
-    //   productsOri.filter(
-    //     (product) => product.id === "741231d0-d36f-4074-9d40-6db4ca505384"
-    //   );
-    // image7 = image7Obj[0].image;
-    const image8Obj =
-      productsOri &&
-      productsOri.filter(
-        (product) => product.id === "afd8888c-ea58-468b-aa7c-6d47d931a92d"
-      );
-    image8 = image8Obj[0].image;
-    const image8_2Obj =
-      productsOri &&
-      productsOri.filter(
-        (product) => product.id === "8a49fffe-7cd5-4e7a-a5ce-babd4d89513f"
-      );
-    image8_2 = image8_2Obj[0].image;
-    const image9Obj =
-      productsOri &&
-      productsOri.filter(
-        (product) => product.id === "a668b282-c300-471e-9607-62c17610a89e"
-      );
-    image9 = image9Obj[0].image;
   } else {
     console.log("데이터를 받아오지 못했습니다.");
   }
@@ -105,115 +49,99 @@ export default function WorkDetail18() {
     <>
       {isLoading && <p>Loading...</p>}
       {error && <p>{error}</p>}
-      <div className="mb-5 project">
-        <img
-          className="project__img"
-          src={image1}
-          alt="1.A letter, book(2016).JPG"
-        />
-        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          A letter, book(2016)
-        </span>
+      <div className="video-container mb-5">
+        <iframe
+          id="ytplayer"
+          type="text/html"
+          src="https://www.youtube.com/embed/UXa0_cuyMfs?rel=0"
+          frameborder="0"
+          allowfullScreen="allowfullscreen"
+          title="YouTube video player"
+          width="640"
+          height="390"
+        ></iframe>
+      </div>
+      <div className="video-container mb-5">
+        <iframe
+          id="ytplayer"
+          type="text/html"
+          src="https://www.youtube.com/embed/LuYWyBzgNxo?rel=0"
+          frameborder="0"
+          allowfullScreen="allowfullscreen"
+          title="YouTube video player"
+          width="640"
+          height="390"
+        ></iframe>
+      </div>
+      <div className="video-container mb-5">
+        <iframe
+          id="ytplayer"
+          type="text/html"
+          src="https://www.youtube.com/embed/okDGHcDsVYA?rel=0"
+          frameborder="0"
+          allowfullScreen="allowfullscreen"
+          title="YouTube video player"
+          width="640"
+          height="390"
+        ></iframe>
       </div>
       <div className="mb-5 project">
-        <img
-          className="project__img"
-          src={image2}
-          alt="2.어떤 의식1, 57x77cm, pencil on paper, 2015.jpg"
-        />
-        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          어떤 의식1, 57x77cm, pencil on paper, 2015
-        </span>
+        <img className="project__img" src={image1} alt="" />
       </div>
       <div className="mb-5 project">
-        <img
-          className="project__img"
-          src={image3}
-          alt="3.어떤 의식2, 57x77cm, pencil on paper, 2015.jpg"
-        />
-        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          어떤 의식2, 57x77cm, pencil on paper, 2015
-        </span>
+        <img className="project__img" src={image2} alt="" />
       </div>
       <div className="mb-5 project">
-        <img
-          className="project__img"
-          src={image4}
-          alt="4.어떤 의식3, 70x300cm, pencil on paper, 2015.jpg"
-        />
-        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          어떤 의식3, 70x300cm, pencil on paper, 2015
-        </span>
+        <img className="project__img" src={image3} alt="" />
       </div>
       <div className="mb-5 project">
-        <img
-          className="project__img"
-          src={image4_2}
-          alt="4-1. Exhibition view.jpg"
-        />
-        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          Exhibition view
-        </span>
+        <img className="project__img" src={image4} alt="" />
       </div>
-      <div className="mb-5 project">
-        <img
-          className="project__img"
-          src={image5}
-          alt="5.상(像)에 대한 드로잉,20x110cm,장지에 채색,2016.JPG"
-        />
-        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          상(像)에 대한 드로잉,20x110cm,장지에 채색,2016
-        </span>
-      </div>
-      {/* <img
-        className="mb-5"
-        src={image5_2}
-        alt="5.상象, 57x77cm, pencil on paper, 2015.jpg"
-      /> */}
-      <div className="mb-5 project">
-        <img
-          className="project__img"
-          src={image6}
-          alt="6.상象, 120x240cm, pigment on Hanji 2015.jpg"
-        />
-        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          상象, 120x240cm, pigment on Hanji 2015
-        </span>
-      </div>
-      {/* <img
-        className="mb-5"
-        src={image7}
-        alt="7. Perception Lab, Exhibition View(2016).jpg"
-      /> */}
-      <div className="mb-5 project">
-        <img
-          className="project__img"
-          src={image8}
-          alt="8. Perception Lab, Exhibition View(1).JPG"
-        />
-        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          Perception Lab, Exhibition View(1)
-        </span>
-      </div>
-      <div className="mb-5 project">
-        <img
-          className="project__img"
-          src={image8_2}
-          alt="8. Perception Lab, Exhibition View.JPG"
-        />
-        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          Perception Lab, Exhibition View
-        </span>
-      </div>
-      <div className="mb-5 project">
-        <img
-          className="project__img"
-          src={image9}
-          alt="9. Perception Lab, Exhibition View.JPG"
-        />
-        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          Perception Lab, Exhibition View
-        </span>
+      <div className="">
+        <p className="p-2 mb-3 text-xl italic">
+          <br />
+          “정적을 깨는 하나의 동작이 그 고요함을 가장 강하게 일깨울 때가 있다.”
+        </p>
+        <p className="p-2 mb-5 line-clamp text-justify">
+          ‘친다’라는 행위는 ‘안친다’라는 이름의 정적을 깨고, 정적을 깨는 동작은
+          그 고요함을 가장 강하게 일깨운다. 전시 ＜ppp pppp ppppp＞에서
+          아하콜렉티브는 0과 1사이의 숨을 고르는 순간을 그리며 하나의 동작에
+          내포된 ‘섬세한 주관성’을 두드린다. 키네틱 오브제와 이를 둘러싼 3면
+          영상은 0에서 점차 커짐(0＜ppp), 점차 작아지다가 사라짐(ppp＞0)의
+          상대적 방향의 페이징을 반복하며 라이브홀 공간의 여백을 가른다. 소리와
+          빛을 매개로한 이러한 상호작용은 즉흥성을 띤 심리적 질감으로 치환된다.
+          이 가운데, 아우어퍼쿠션의 공연은 연주자들이 공간을 유연하게 점유하는
+          방식으로 진행된다. 각 연주자들 사이에서 나타나는 리듬과 음형은 반복,
+          확대되어 감상자와 소리의 경계를 허문다. 하나의 동작에서 비롯된 ＜ppp
+          pppp ppppp＞는 공유된 시간 속에서 새로운 언어로서의 상징을 만들어
+          간다.
+          <br />
+          <br />
+          *ppp: 피아니시모(가장 약하게)
+        </p>
+        <p className="p-2 mb-3">
+          <span className="font-bold">
+            PLAP 2022 최우수 선정 후속작 | ppp pppp ppppp
+          </span>
+          <br />
+          ・전시일정: 2023년 9월 21일-24일 (월요일 휴관) <br />
+          ・공연일정: 1회차: 2023년 9월 21일(목) 오후 7:00-7:40, 러닝타임 40분 /
+          2회차: 2023년 9월 22일(금) 오후 7:00-7:40, 러닝타임 40분
+          <br />
+          ・전시장소 : 플랫폼엘 컨템포러리 아트센터/ 플랫폼 라이브(B2) <br />
+        </p>
+        <p className="p-2 mb-3">
+          <span className="font-bold">CREDIT</span>
+          <br />
+          ・전시기획 및 작품제작 <br />
+          아하콜렉티브(AHA COLLECTIVE) - 김샛별, 박주애, 정혜리, 최지원 <br />
+          ・라이브 공연 <br />
+          아우어퍼쿠션(OUR PERCUSSION) - 우리, 김수진, 안다해, 우재훈, 김용진{" "}
+          <br />
+          ・사운드: 지성민 <br />
+          ・ 주관 : 아하콜렉티브 <br />
+          ・주최/후원: 플랫폼엘 컨템포러리 아트센터, 루이까또즈 <br />
+        </p>
       </div>
     </>
   );
