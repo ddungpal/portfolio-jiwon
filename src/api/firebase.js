@@ -15,7 +15,7 @@ const database = getDatabase(app);
 
 export async function addNewProduct(product, image) {
   const id = uuid();
-  return set(ref(database, `products/0/${id}`), {
+  return set(ref(database, `current/${id}`), {
     ...product,
     id,
     projectNo: parseInt(product.projectNo),
@@ -33,7 +33,16 @@ export async function getHome() {
 }
 
 export async function getInterview() {
-  return get(ref(database, "interview")).then((snapshot) => {
+  return get(ref(database, "current")).then((snapshot) => {
+    if (snapshot.exists()) {
+      return Object.values(snapshot.val());
+    }
+    return [];
+  });
+}
+
+export async function getCurrent() {
+  return get(ref(database, "current")).then((snapshot) => {
     if (snapshot.exists()) {
       return Object.values(snapshot.val());
     }

@@ -9,6 +9,9 @@ import WorkDetail15 from "./workDetail/WorkDetail15";
 import WorkDetail16 from "./workDetail/WorkDetail16";
 import WorkDetail17 from "./workDetail/WorkDetail17";
 import WorkDetail18 from "./workDetail/WorkDetail18";
+import WorkDetail19 from "./workDetail/WorkDetail19";
+import WorkDetail20 from "./workDetail/WorkDetail20";
+import WorkDetail21 from "./workDetail/WorkDetail21";
 import WorkDetail2 from "./workDetail/WorkDetail2";
 import WorkDetail3 from "./workDetail/WorkDetail3";
 import WorkDetail4 from "./workDetail/WorkDetail4";
@@ -173,6 +176,30 @@ export default function WorkDetail({ selectedContent }) {
           </div>
         </>
       );
+    case "19":
+      return (
+        <>
+          <div>
+            <WorkDetail19 />
+          </div>
+        </>
+      );
+      case "20":
+        return (
+          <>
+            <div>
+              <WorkDetail20 />
+            </div>
+          </>
+        );
+        case "21":
+          return (
+            <>
+              <div>
+                <WorkDetail21 />
+              </div>
+            </>
+          );
     default:
       return (
         <>
