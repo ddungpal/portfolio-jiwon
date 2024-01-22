@@ -1,219 +1,72 @@
 import React from "react";
-import { useQuery } from "@tanstack/react-query";
-import { getProducts18 } from "../../api/firebase";
 
-export default function WorkDetail18() {
-  const {
-    isLoading,
-    error,
-    data: products18,
-  } = useQuery(["products18"], getProducts18);
-
-  console.log(products18);
-  let image1 = "";
-  let image2 = "";
-  let image3 = "";
-  let image4 = "";
-  let image4_2 = "";
-  let image5 = "";
-  // let image5_2 = "";
-  let image6 = "";
-  // let image7 = "";
-  let image8 = "";
-  let image8_2 = "";
-  let image9 = "";
-
-  if (products18) {
-    const _ = require("lodash");
-    const productsOri = _.cloneDeep(products18);
-    const image1Obj =
-      productsOri &&
-      productsOri.filter(
-        (product) => product.id === "51eb5d2d-47e4-4bd8-93ba-1c2dcbfbb42b"
-      );
-    image1 = image1Obj[0].image;
-    const image2Obj =
-      productsOri &&
-      productsOri.filter(
-        (product) => product.id === "b500a229-a223-4aeb-aac9-00796f06b970"
-      );
-    image2 = image2Obj[0].image;
-    const image3Obj =
-      productsOri &&
-      productsOri.filter(
-        (product) => product.id === "7cf61f09-1ec8-4bb0-a292-d1b520904a5b"
-      );
-    image3 = image3Obj[0].image;
-    const image4Obj =
-      productsOri &&
-      productsOri.filter(
-        (product) => product.id === "a36a1fa0-083f-42d3-be35-8065c653de2b"
-      );
-    image4 = image4Obj[0].image;
-    const image4_2Obj =
-      productsOri &&
-      productsOri.filter(
-        (product) => product.id === "9e651228-9af0-46d2-8098-771bef9dd63d"
-      );
-    image4_2 = image4_2Obj[0].image;
-    const image5Obj =
-      productsOri &&
-      productsOri.filter(
-        (product) => product.id === "6234d3f1-a4b5-4d08-b160-d2170058b524"
-      );
-    image5 = image5Obj[0].image;
-    // const image5_2Obj =
-    //   productsOri &&
-    //   productsOri.filter(
-    //     (product) => product.id === "8d6c449f-3e86-4d3d-bb5d-47250ede8ce1"
-    //   );
-    // image5_2 = image5_2Obj[0].image;
-    const image6Obj =
-      productsOri &&
-      productsOri.filter(
-        (product) => product.id === "1270d7f8-30d1-4cdd-91ca-0c0f3c17904f"
-      );
-    image6 = image6Obj[0].image;
-    // const image7Obj =
-    //   productsOri &&
-    //   productsOri.filter(
-    //     (product) => product.id === "741231d0-d36f-4074-9d40-6db4ca505384"
-    //   );
-    // image7 = image7Obj[0].image;
-    const image8Obj =
-      productsOri &&
-      productsOri.filter(
-        (product) => product.id === "afd8888c-ea58-468b-aa7c-6d47d931a92d"
-      );
-    image8 = image8Obj[0].image;
-    const image8_2Obj =
-      productsOri &&
-      productsOri.filter(
-        (product) => product.id === "8a49fffe-7cd5-4e7a-a5ce-babd4d89513f"
-      );
-    image8_2 = image8_2Obj[0].image;
-    const image9Obj =
-      productsOri &&
-      productsOri.filter(
-        (product) => product.id === "a668b282-c300-471e-9607-62c17610a89e"
-      );
-    image9 = image9Obj[0].image;
-  } else {
-    console.log("데이터를 받아오지 못했습니다.");
-  }
+export default function WorkDetail19() {
   return (
     <>
-      {isLoading && <p>Loading...</p>}
-      {error && <p>{error}</p>}
-      <div className="mb-5 project">
-        <img
-          className="project__img"
-          src={image1}
-          alt="1.A letter, book(2016).JPG"
-        />
-        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          A letter, book(2016)
-        </span>
+      <div className="video-container mb-5">
+        <iframe
+          id="ytplayer"
+          type="text/html"
+          src="https://www.youtube.com/embed/6JXFM7qFJA4?rel=0"
+          frameborder="0"
+          allowfullScreen="allowfullscreen"
+          title="YouTube video player"
+          width="640"
+          height="390"
+        ></iframe>
       </div>
-      <div className="mb-5 project">
-        <img
-          className="project__img"
-          src={image2}
-          alt="2.어떤 의식1, 57x77cm, pencil on paper, 2015.jpg"
-        />
-        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          어떤 의식1, 57x77cm, pencil on paper, 2015
-        </span>
+      <div className="video-container mb-5">
+        <iframe
+          id="ytplayer"
+          type="text/html"
+          src="https://www.youtube.com/embed/8yd93n1Bv28?rel=0"
+          frameborder="0"
+          allowfullScreen="allowfullscreen"
+          title="YouTube video player"
+          width="640"
+          height="390"
+        ></iframe>
       </div>
-      <div className="mb-5 project">
-        <img
-          className="project__img"
-          src={image3}
-          alt="3.어떤 의식2, 57x77cm, pencil on paper, 2015.jpg"
-        />
-        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          어떤 의식2, 57x77cm, pencil on paper, 2015
-        </span>
-      </div>
-      <div className="mb-5 project">
-        <img
-          className="project__img"
-          src={image4}
-          alt="4.어떤 의식3, 70x300cm, pencil on paper, 2015.jpg"
-        />
-        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          어떤 의식3, 70x300cm, pencil on paper, 2015
-        </span>
-      </div>
-      <div className="mb-5 project">
-        <img
-          className="project__img"
-          src={image4_2}
-          alt="4-1. Exhibition view.jpg"
-        />
-        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          Exhibition view
-        </span>
-      </div>
-      <div className="mb-5 project">
-        <img
-          className="project__img"
-          src={image5}
-          alt="5.상(像)에 대한 드로잉,20x110cm,장지에 채색,2016.JPG"
-        />
-        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          상(像)에 대한 드로잉,20x110cm,장지에 채색,2016
-        </span>
-      </div>
-      {/* <img
-        className="mb-5"
-        src={image5_2}
-        alt="5.상象, 57x77cm, pencil on paper, 2015.jpg"
-      /> */}
-      <div className="mb-5 project">
-        <img
-          className="project__img"
-          src={image6}
-          alt="6.상象, 120x240cm, pigment on Hanji 2015.jpg"
-        />
-        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          상象, 120x240cm, pigment on Hanji 2015
-        </span>
-      </div>
-      {/* <img
-        className="mb-5"
-        src={image7}
-        alt="7. Perception Lab, Exhibition View(2016).jpg"
-      /> */}
-      <div className="mb-5 project">
-        <img
-          className="project__img"
-          src={image8}
-          alt="8. Perception Lab, Exhibition View(1).JPG"
-        />
-        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          Perception Lab, Exhibition View(1)
-        </span>
-      </div>
-      <div className="mb-5 project">
-        <img
-          className="project__img"
-          src={image8_2}
-          alt="8. Perception Lab, Exhibition View.JPG"
-        />
-        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          Perception Lab, Exhibition View
-        </span>
-      </div>
-      <div className="mb-5 project">
-        <img
-          className="project__img"
-          src={image9}
-          alt="9. Perception Lab, Exhibition View.JPG"
-        />
-        <span className="project__description text-[8px] lg:text-base lg:h-1/20">
-          Perception Lab, Exhibition View
-        </span>
+      <div className="">
+        <p className="p-2 mb-3 text-xl font-bold">
+          <br />
+          《Up-Down Counter》
+        </p>
+        <p className="p-2 mb-3">
+          2023.08.31-09.02ㅣ9:30 am-5:30 pm
+          <br />
+          서소문 성지 역사박물관 콘솔레이션홀 (서울 중구 칠패로 5)
+        </p>
+        <p className="p-2 mb-5 line-clamp text-justify">
+          ‌0과 1 사이는 수많은 선택으로 이루어져 있다. 누군가에게는 커다란
+          이상으로 가득한, 누군가에게는 한번의 호흡만으로도 가득찰 찰나가 되기도
+          한다. 수많은 경로와 다양한 해석의 가능성이 혼재되어 있는 이 명료한
+          범위의 설정은 개개인의 선택의 경계에서 깊은 사색으로 가는 기로로
+          작용한다.
+          <br />
+          <br />
+          전시 《Up-Down Counter》에서 아하콜렉티브는 관념적 이상성理想性에 대한
+          생경한 경험을 다룬다. ‘몽유도원_The Journey’은 조선시대 안평대군의 꿈
+          속 세계를 그린 몽유도원도에서 모티브를 얻은 작품으로, 작품 안에
+          등장하는 수많은 봉우리들은 이상으로 향하는 여정의 연속되는 경계의
+          문으로 비유된다. 이러한 횡적 이동은 마지막 문을 지나 종적 흐름으로
+          전환되며, 그 흐름의 종착지는 다시금 최초의 지점으로 환원된다.
+          유토피아, 즉 ‘심리적 안식처’에 이르는 여정과 ‘위안’을 전하는
+          콘솔레이션홀의 공간적 개연성은 이러한 네러티브를 보다 적극적으로
+          증폭시킨다.
+          <br />
+          <br />
+          전시를 관통하는 이상향으로의 여정은 시공간을 꿰뚫는 하나의 공명으로
+          발현되어 충돌하고, 그 경계를 허문다. 허물어진 고유한 속성은 일상을
+          지나 우리를 깊은 내면으로 인도하고, 새로운 꿈의 여정으로 안내한다.
+          <br />
+          <br />
+          주최/주관: 김샛별, 박주애, 정혜리, 최지원
+          <br />
+          제작: 아하콜렉티브, 사운드: 이 언<br />
+          후원: 서울문화재단, 서울특별시 <br />
+          *본 전시는 서울문화재단 예술창작활동 지원사업 선정 프로젝트입니다.
+        </p>
       </div>
     </>
   );
