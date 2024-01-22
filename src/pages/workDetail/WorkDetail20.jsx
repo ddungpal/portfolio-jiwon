@@ -62,6 +62,7 @@ export default function WorkDetail20() {
           (타악)김용진 @raphaelyj99 <br />
           (정주)김샛별 박주애 정혜리 최지원 <br />
           <br />
+          디지털 아트 | 아하콜렉티브 <br />
           사운드엔지니어 | 임수영 김종록 <br />
           촬영 | 김윤식 박준영 헤드피스 <br />
           디자이너 | 최영탁 <br />
