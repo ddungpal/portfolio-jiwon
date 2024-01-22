@@ -33,7 +33,7 @@ export async function getHome() {
 }
 
 export async function getInterview() {
-  return get(ref(database, "current")).then((snapshot) => {
+  return get(ref(database, "interview")).then((snapshot) => {
     if (snapshot.exists()) {
       return Object.values(snapshot.val());
     }
