@@ -35,11 +35,11 @@ export default function TopbarBg() {
           id="example-navbar-danger"
         >
           <ul className="flex flex-col lg:flex-row list-none lg:ml-auto lg:space-x-4 text-xl lg:text-2xl">
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link to="/exhibition">
                 <h1 className="font-bold hover:text-indigo-300">Current</h1>
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link to="/work/1">
                 <h1 className="font-bold hover:text-indigo-300">Work</h1>
@@ -70,7 +70,10 @@ export default function TopbarBg() {
               </button>
             </li> */}
             <li className="nav-item">
-              <Link to="https://www.instagram.com/jiwonchoi_painting/" target="_blank">
+              <Link
+                to="https://www.instagram.com/jiwonchoi_painting/"
+                target="_blank"
+              >
                 <h1 className="font-bold text-2xl hover:text-indigo-300 mt-1.5">
                   <BsInstagram />
                 </h1>
