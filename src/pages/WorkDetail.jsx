@@ -21,6 +21,10 @@ import WorkDetail7 from "./workDetail/WorkDetail7";
 import WorkDetail8 from "./workDetail/WorkDetail8";
 import WorkDetail9 from "./workDetail/WorkDetail9";
 import WorkDetail0 from "./workDetail/WorkDetail0";
+import WorkDetailA from "./workDetail/WorkDetailA";
+import WorkDetailB from "./workDetail/WorkDetailB";
+import WorkDetailC from "./workDetail/WorkDetailC";
+import WorkDetailD from "./workDetail/WorkDetailD";
 
 export default function WorkDetail({ selectedContent }) {
   switch (selectedContent) {
@@ -184,22 +188,54 @@ export default function WorkDetail({ selectedContent }) {
           </div>
         </>
       );
-      case "20":
-        return (
-          <>
-            <div>
-              <WorkDetail20 />
-            </div>
-          </>
-        );
-        case "21":
-          return (
-            <>
-              <div>
-                <WorkDetail21 />
-              </div>
-            </>
-          );
+    case "20":
+      return (
+        <>
+          <div>
+            <WorkDetail20 />
+          </div>
+        </>
+      );
+    case "21":
+      return (
+        <>
+          <div>
+            <WorkDetail21 />
+          </div>
+        </>
+      );
+    case "A":
+      return (
+        <>
+          <div>
+            <WorkDetailA />
+          </div>
+        </>
+      );
+    case "B":
+      return (
+        <>
+          <div>
+            <WorkDetailB />
+          </div>
+        </>
+      );
+    case "C":
+      return (
+        <>
+          <div>
+            <WorkDetailC />
+          </div>
+        </>
+      );
+    case "D":
+      return (
+        <>
+          <div>
+            <WorkDetailD />
+          </div>
+        </>
+      );
     default:
       return (
         <>

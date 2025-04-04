@@ -5,6 +5,12 @@ export default function WorkSidebar({ selectedContent }) {
   const [part, setPart] = useState("All");
 
   let contents_upcoming = [];
+  let contents_2025 = ["D.Eternal Present.Painting", "E.The Journey.Project"];
+  let contents_2024 = [
+    "A.Anti-Gravity.Project",
+    "B.Invisible Forest.Project",
+    "C.The Visitor.Project",
+  ];
   let contents_2023 = [
     "1.Swaying Intoversion.Painting",
     "21.ppp pppp ppppp.Project",
@@ -38,6 +44,8 @@ export default function WorkSidebar({ selectedContent }) {
     contents_upcoming = contents_upcoming.filter((word) =>
       word.includes("Painting")
     );
+    contents_2025 = contents_2025.filter((word) => word.includes("Painting"));
+    contents_2024 = contents_2024.filter((word) => word.includes("Painting"));
     contents_2023 = contents_2023.filter((word) => word.includes("Painting"));
     contents_2022 = contents_2022.filter((word) => word.includes("Painting"));
     contents_2021 = contents_2021.filter((word) => word.includes("Painting"));
@@ -50,6 +58,8 @@ export default function WorkSidebar({ selectedContent }) {
     contents_upcoming = contents_upcoming.filter((word) =>
       word.includes("Project")
     );
+    contents_2025 = contents_2025.filter((word) => word.includes("Project"));
+    contents_2024 = contents_2024.filter((word) => word.includes("Project"));
     contents_2023 = contents_2023.filter((word) => word.includes("Project"));
     contents_2022 = contents_2022.filter((word) => word.includes("Project"));
     contents_2021 = contents_2021.filter((word) => word.includes("Project"));
@@ -106,6 +116,44 @@ export default function WorkSidebar({ selectedContent }) {
           <h5 className="mb-3 font-semibold text-slate-900">Upcoming</h5>
           <ul className="space-y-2 border-l border-slate-100">
             {contents_upcoming.map((content) => (
+              <Link to={`/work/${content.split(".")[0]}`}>
+                <li
+                  key={content.split(".")[0]}
+                  className={
+                    selectedContent === content.split(".")[0]
+                      ? "worksidebar-li-active"
+                      : "worksidebar-li-default"
+                  }
+                >
+                  {content.split(".")[1]}
+                </li>
+              </Link>
+            ))}
+          </ul>
+        </li>
+        <li className={"mt-5" + (contents_2025.length > 0 ? "" : " hidden")}>
+          <h5 className="mb-3 font-semibold text-slate-900">2025</h5>
+          <ul className="space-y-2 border-l border-slate-100">
+            {contents_2025.map((content) => (
+              <Link to={`/work/${content.split(".")[0]}`}>
+                <li
+                  key={content.split(".")[0]}
+                  className={
+                    selectedContent === content.split(".")[0]
+                      ? "worksidebar-li-active"
+                      : "worksidebar-li-default"
+                  }
+                >
+                  {content.split(".")[1]}
+                </li>
+              </Link>
+            ))}
+          </ul>
+        </li>
+        <li className={"mt-5" + (contents_2024.length > 0 ? "" : " hidden")}>
+          <h5 className="mb-3 font-semibold text-slate-900">2024</h5>
+          <ul className="space-y-2 border-l border-slate-100">
+            {contents_2024.map((content) => (
               <Link to={`/work/${content.split(".")[0]}`}>
                 <li
                   key={content.split(".")[0]}
