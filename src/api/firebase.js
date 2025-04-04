@@ -274,3 +274,12 @@ export async function getProductsD() {
     return [];
   });
 }
+
+export async function getProductsE() {
+  return get(ref(database, "products/E")).then((snapshot) => {
+    if (snapshot.exists()) {
+      return Object.values(snapshot.val());
+    }
+    return [];
+  });
+}
