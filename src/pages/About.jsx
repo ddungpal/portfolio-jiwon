@@ -39,7 +39,7 @@ export default function About() {
           >
             Statement
           </button>
-          <button
+          {/* <button
             className={
               "mr-3 hover:text-indigo-300" +
               (category === "interview"
@@ -50,7 +50,7 @@ export default function About() {
             onClick={() => setCategory((category) => "interview")}
           >
             Interview
-          </button>
+          </button> */}
           <button
             className={
               "mr-3 hover:text-indigo-300" +

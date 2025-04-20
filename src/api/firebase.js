@@ -15,7 +15,7 @@ const database = getDatabase(app);
 
 export async function addNewProduct(product, image) {
   const id = uuid();
-  return set(ref(database, `products/B/${id}`), {
+  return set(ref(database, `products/21/${id}`), {
     ...product,
     id,
     projectNo: parseInt(product.projectNo),
