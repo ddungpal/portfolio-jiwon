@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 // import Avatar from "../components/Avatar";
 import Topbar from "../components/Topbar";
 // import profileimg from "../imgs/about/profile.png";
-import { useLanguageMode } from "../context/LanguageContext";
-import singleBtn from "../imgs/about/single.png";
-import teamBtn from "../imgs/about/team.png";
-import selectBtn from "../imgs/about/select.png";
+// import { useLanguageMode } from "../context/LanguageContext";
+// import singleBtn from "../imgs/about/single.png";
+// import teamBtn from "../imgs/about/team.png";
+// import selectBtn from "../imgs/about/select.png";
 import { useQuery } from "@tanstack/react-query";
 import { getInterview } from "../api/firebase";
 import { Link } from "react-router-dom";
-import Axios from "axios";
+// import Axios from "axios";
 
 // Notion
 // notion 테마 스타일링 (필수)
@@ -19,16 +19,16 @@ import "prismjs/themes/prism-tomorrow.css";
 // 공식등 수학적 기호 스타일용 (선택)
 import "katex/dist/katex.min.css";
 
-import { NotionAPI } from "notion-client";
+// import { NotionAPI } from "notion-client";
 import { NotionRenderer } from "react-notion";
-const notion = new NotionAPI();
+// const notion = new NotionAPI();
 // const recordMap = await notion.getPage("CV-1cb09f3526028092ae90f367dcac629b");
 
 export default function About() {
-  const { koMode, toggleKoMode } = useLanguageMode();
-  const [isSingeBtnHover, setIsSingleBtnHover] = useState(false);
-  const [isTeamBtnHover, setIsTeamBtnHover] = useState(false);
-  const [part, setPart] = useState("Single");
+  // const { koMode, toggleKoMode } = useLanguageMode();
+  // const [isSingeBtnHover, setIsSingleBtnHover] = useState(false);
+  // const [isTeamBtnHover, setIsTeamBtnHover] = useState(false);
+  // const [part, setPart] = useState("Single");
   const [category, setCategory] = useState("statement");
   const {
     isLoading,
