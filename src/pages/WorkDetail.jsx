@@ -26,6 +26,7 @@ import WorkDetailB from "./workDetail/WorkDetailB";
 import WorkDetailC from "./workDetail/WorkDetailC";
 import WorkDetailD from "./workDetail/WorkDetailD";
 import WorkDetailE from "./workDetail/WorkDetailE";
+import WorkDetailF from "./workDetail/WorkDetailF";
 
 export default function WorkDetail({ selectedContent }) {
   switch (selectedContent) {
@@ -242,6 +243,14 @@ export default function WorkDetail({ selectedContent }) {
         <>
           <div>
             <WorkDetailE />
+          </div>
+        </>
+      );
+    case "F":
+      return (
+        <>
+          <div>
+            <WorkDetailF />
           </div>
         </>
       );
